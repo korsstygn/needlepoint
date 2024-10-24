@@ -1,19 +1,19 @@
 import pandas as pd  # Import the pandas library for data manipulation and analysis.
 from wordcloud import WordCloud  # Import the WordCloud class from the wordcloud library to create word clouds.
-
-# Optionally, if you want to use matplotlib for plotting:
-# import matplotlib.pyplot as plt
-
-# Optionally, if you prefer using Plotly for interactive plots:
-# import plotly.graph_objs as go
-
+# import matplotlib.pyplot as plt  # Optionally, if you want to use matplotlib for plotting.
+# import plotly.graph_objs as go  # Optionally, if you prefer using Plotly for interactive plots.
 import jinja2  # Import the Jinja2 templating engine to generate HTML files dynamically.
 from base64 import b64encode  # Import the b64encode function from the base64 module to encode SVG data.
+import os  # Import the os module to handle directory operations.
 
 selected_columns = []  # Initialize an empty list to store the selected columns for word cloud visualization.
 
 # Define a function to read a CSV file and create word clouds for selected columns.
-def create_word_clouds(file_path):
+def create_word_clouds(file_path, output_folder):
+    # Ensure the output folder exists. If not, create it.
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+    
     # Read the CSV file into a DataFrame using pandas.
     df = pd.read_csv(file_path)
     
@@ -23,7 +23,6 @@ def create_word_clouds(file_path):
     for idx, column in enumerate(column_names):
         print(f"{idx + 1}: {column}")
     
-
     while True:
         try:
             # Prompt the user to enter the indices of columns they want to visualize as word clouds.
@@ -40,7 +39,7 @@ def create_word_clouds(file_path):
             # Handle cases where the user enters invalid input (e.g., non-integer).
             print("Invalid input. Please enter comma-separated integers.")
     
-    # Create word clouds for each selected column.
+    # Create word clouds for each selected column and save them to the output folder.
     for column in selected_columns:
         text = ' '.join(df[column].dropna().astype(str))
         
@@ -52,7 +51,7 @@ def create_word_clouds(file_path):
         wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
         
         # Save the word cloud as an HTML file using base64 encoding for SVG data.
-        html_filename = f"{column.replace(' ', '_')}_word_cloud.html"
+        html_filename = os.path.join(output_folder, f"{column.replace(' ', '_')}_word_cloud.html")
         with open(html_filename, 'w') as f:
             f.write('<img src="data:image/svg+xml;base64,' + b64encode(wordcloud.to_svg().encode()).decode() + '" width="800" height="400"/>')
         print(f"Saved {html_filename}")
@@ -61,18 +60,20 @@ def create_word_clouds(file_path):
     # Create an index.html file with links to the word cloud pages using a Jinja2 template.
     template_loader = jinja2.FileSystemLoader(searchpath=".")  # Set up the Jinja2 template loader.
     template_env = jinja2.Environment(loader=template_loader)  # Create a Jinja2 environment.
-    template = template_env.get_template("index_template.html")  # Load the index_template.html template.
+    template = template_env.get_template("NewsDB-Python/HTML/index_template.html")  # Load the index_template.html template.
     output = template.render(columns=[f"{col.replace(' ', '_')}_word_cloud.html" for col in selected_columns])  # Render the template with word cloud filenames.
     
-    with open("index.html", "w") as f:
+    index_html_filename = os.path.join(output_folder, "index.html")
+    with open(index_html_filename, "w") as f:
         f.write(output)  # Write the rendered HTML content to index.html.
     print("Created index.html with word cloud links.")
 
-# Specify the path to your CSV file.
-file_path = 'dataset.csv'
+# Specify the path to your CSV file and the output folder.
+file_path = 'NewsDB-Python/datatsets/dataset.csv'
+output_folder = 'NewsDB-Python/HTML/'
 
 # Call the function to read the CSV file and create word clouds for selected columns, then generate HTML files.
-create_word_clouds(file_path)
+create_word_clouds(file_path, output_folder)
 
 # Display the selected columns and their corresponding word cloud files.
 selected_columns = [f"{col.replace(' ', '_')}_word_cloud.html" for col in selected_columns]
