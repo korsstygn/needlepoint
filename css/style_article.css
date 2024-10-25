@@ -7,9 +7,10 @@ h5,
 h6 {
     font-family: "Inter", sans-serif;
 }
+
 body {
 
-    margin: 20px;
+    margin: 60px;
     color: #434343;
     line-height: 1.8;
 }
@@ -19,7 +20,6 @@ margin: 10px;
     border-collapse: collapse; /* Collapse borders into a single line */
     margin-bottom: 20px;
 }
-
 /* Table header styling */
 th {
     background-color: #F2F2F2; /* Light gray background for headers */
