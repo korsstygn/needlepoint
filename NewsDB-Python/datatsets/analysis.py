@@ -19,6 +19,8 @@ def count_articles(df, top_keywords):
     articles_matching_keywords = df[df['Title'].str.contains('|'.join(top_keywords), na=False)]
     return article_counts, articles_matching_keywords[['Title', 'Author']]
 
+
+
 def list_authors(df):
     authors = df['Author'].str.split(';', expand=True).stack().dropna()
     author_counts = Counter(authors)

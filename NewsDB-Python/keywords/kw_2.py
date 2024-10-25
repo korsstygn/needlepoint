@@ -91,7 +91,7 @@ def save_report(report, file_path):
 
 # Main function
 def main():
-    input_file_path = "dataset.csv"  # Replace with your CSV file path
+    input_file_path = "NewsDB-Python/datatsets/dataset.csv"  # Replace with your CSV file path
     output_file_path = "kw_2_report.txt"  # Replace with the desired output file path
     
     df = load_csv(input_file_path)
