@@ -24,7 +24,7 @@ author_counter = Counter(authors)  # counting frequencies of authors
 top_ten_authors = author_counter.most_common(10) # getting top 10 authors that use these keywords
 
 # output results to HTML file
-with open('index.html', 'w') as f:
+with open('index_new.html', 'w') as f:
     f.write('<!DOCTYPE html><html lang="sv"><head><title>Dataset analysis</title>'
             '<link href="css/style_article.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet"></head>')
     f.write('<body><h1>Top 10 keywords and their frequency</h1><p><strong>Research question:</strong> What five issues is the academic literature selected for our dataset most critical of when it comes to Google?<br><strong>Dataset question:</strong> Which 5 keywords occur most frequently in the dataset?</p>')
