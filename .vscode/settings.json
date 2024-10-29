@@ -1,4 +1,6 @@
 {
     "localaipilot.standalone.ollamaModel": "codegemma:2b",
-    "localaipilot.standalone.ollamaCodeModel": "stable-code:latest"
+    "localaipilot.standalone.ollamaCodeModel": "stable-code:latest",
+    "workbench.colorCustomizations": {},
+    "editor.semanticTokenColorCustomizations": {}
 }
