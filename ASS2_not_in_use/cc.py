@@ -1,5 +1,5 @@
 import pandas as pd
-from wordcloud import WordCloud
+from wordcloud import WordCloud, ImageColorGenerator
 import base64
 from io import BytesIO
 import matplotlib.pyplot as plt
@@ -59,16 +59,16 @@ for idx, row in filtered_df.iterrows():
 # Task 4: Word cloud based on descriptions of articles matching the remaining top 5 keywords
 descriptions_top_keywords = ' '.join(filtered_df['Description'].dropna())  # join all descriptions in a single string, dropping NaNs
 wordcloud = WordCloud(width=1200, height=960).generate(descriptions_top_keywords)  # generate word cloud with the joined descriptions
-
-# Save the word cloud as SVG
-wordcloud_svg = wordcloud.to_svg(embed_font=False)
-with open("NewsDB-Python/reports/Descriptions_word_cloud.svg", "w") as f:
+plt.figure(figsize=(8, 4))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+svg_image = BytesIO()
+plt.savefig(svg_image, format='svg')  # Save word cloud as svg image
+encoded_svg = base64.b64encode(svg_image.getvalue()).decode()  # Encoding the svg image to display in HTML report
+wordcloud_svg = f"<img src='data:image/svg+xml;base64,{encoded_svg}' width='1200' height='960'/>"
+with open("NewsDB-Python/reports/Descriptions_word_cloud.svg", "w") as f:  # Save image
     f.write(wordcloud_svg)
-
-# Save the word cloud as PNG
-wordcloud.to_file("NewsDB-Python/reports/Descriptions_word_cloud.png")
-
-print("Word cloud saved to NewsDB-Python/reports/Descriptions_word_cloud.svg and Descriptions_word_cloud.png")
+print("Word cloud saved to NewsDB-Python/reports/Descriptions_word_cloud.svg")
 
 # Write the results to a markdown file
 with open(md_file_path, 'w') as md:
@@ -77,15 +77,17 @@ with open(md_file_path, 'w') as md:
     for idx, keyword in enumerate(top_5_keywords):
         count = keyword_counts.get(keyword, 0)
         status = "[removed by user]" if keyword in removed_keywords else ""
-        md.write(f"{idx + 1}. {keyword} ({count}) {status}\n")
+        md.write(f"{idx + 1}. {keyword} ({count})\n ")
     
     # Construct all_keywords_str_md correctly
-    all_keywords_str_md = ', '.join([f"{keyword} (**{keyword_counts.get(keyword, 0)}**) {'||**removed by user**| ' if keyword in removed_keywords else ''}" for keyword in keyword_counts.index])
-    md.write("\n**All Keywords and Their Frequencies**\n\n")
-    md.write(f"{all_keywords_str_md}\n\n")
+    all_keywords_str_md = ', '.join([f"{keyword} (**{keyword_counts.get(keyword, 0)}**) {'[removed by user]' if keyword in removed_keywords else ''}" for keyword in keyword_counts.index])
+
+    md.write("\n**All Keywords and Their Frequencies**\n\n ")
+    md.write(f"{all_keywords_str_md} \n\n")  # Use the updated string
     md.write("**Articles Matching the Top 5 Keywords**\n\n")
     
     articles_by_keyword = {}
+
     # Group articles by keywords
     for idx, row in filtered_df.iterrows():
         for keyword in top_5_keywords:
@@ -107,10 +109,10 @@ with open(md_file_path, 'w') as md:
             title = article['title']
             authors = '\n'.join([f"**{article_idx}.**  {author}" for author in article['authors']])
             permalink = article['permalink']
-            md.write(f"{authors} **|** <a href='{permalink}'>{title}</a>\n")
+            md.write(f"\n\n{authors} **|** <a href='{permalink}'>{title}</a>")
             article_idx += 1
     
     md.write("\n\n**Wordcloud based on the descriptions of the articles matching the top five keywords**\n\n")
-    md.write('<img src="NewsDB-Python/reports/Descriptions_word_cloud.svg" onerror="this.onerror=null;this.src=\'NewsDB-Python/reports/Descriptions_word_cloud.png\';">')
+    md.write(f"<img src='NewsDB-Python/reports/Descriptions_word_cloud.svg'>")
 
 print(f"Results saved to {md_file_path}")
