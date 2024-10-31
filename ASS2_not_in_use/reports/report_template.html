@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="style_article.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Analysis Report</title>
+</head>
+
+<body>
+    <h1>Keyword Analysis Report</h1>
+    <h2>Task 1: Top 5 Keywords</h2>
+    <ul>
+        {% for keyword in keywords %}
+        <li>{{ keyword }}: {{ freq }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Task 2: Articles Matching Top Keywords</h2>
+    {% if articles %}
+    <ul>
+        {% for article in articles %}
+            <li>
+                <strong>Title:</strong> {% if 'Title' in article %}{{ article['Title'] }}{% else %}No Title{% endif %}<br>
+                <strong>Author:</strong> {{ article['Author'] }}<br>
+                <strong>Description:</strong> {{ article['Description'][:250]}}<br>
+                <a href="{{ article['URL'] }}">Permalink</a>
+            </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No articles found.</p>
+    {% endif %}
+    
+
+    <h2>Task 3: Authors Discussing Top Keywords</h2>
+    <ul>
+        {% for article in author_articles %}
+        <li>
+            <strong>Keyword:</strong> {{ article.Keyword }}<br>
+            <strong>Author:</strong> {{ article.Author }}<br>
+            <strong>Title:</strong> <a href="{{ article.URL }}">{{ article.Title }}</a><br>
+            <strong>Description:</strong> {{ article.Description }}<br>
+        </li>
+        {% endfor %}
+    </ul>
+    <h2>Task 4: Wordcloud based on descriptions of all articles</h2>
+    <div><img src="{{ wordcloud_svg }}"></div>
+</body>
+
+</html>

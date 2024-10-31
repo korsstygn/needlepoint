@@ -24,7 +24,9 @@ table {
     /* Collapse borders into a single line */
     margin-bottom: 20px;
 }
-
+ol{
+   list-style: outside;   
+}
 /* Table header styling */
 th {
     background-color: #F2F2F2;
