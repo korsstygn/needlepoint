@@ -26,6 +26,6 @@ if __name__ == "__main__":
     # Use absolute paths to the TEI and XSL files
     tei_file = "TEI_Encoded.XML"
     xsl_file = "stylesheet.xsl"
-    output_file = "output_5325.html"  
+    output_file = "index.html"  
 
     tei_to_html(tei_file, xsl_file, output_file) 
