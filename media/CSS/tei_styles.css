@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+}
+.logo {
+    width: 150px;
+}
+.info {
+    font-size: 0.9em;
+    color: gray;
+    text-align: right;
+}
+.ticker {
+    background-color: black;
+    height: 5px;
+    margin-bottom: 20px;
+}
+.headline {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+.subheadings {
+    font-size: 1.2em;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.article {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.article-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    width: 48%;
+}
+.column-divider {
+    width: 1px;
+    background-color: gray;
+    margin: 0 10px;
+}
+.brief {
+    border-top: 2px solid black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.brief-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.ad-container {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid black;
+}
+.ad-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
