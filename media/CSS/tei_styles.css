@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+TEI {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+  }
+  
+  teiHeader {
+    display: none; /* Hide header metadata*/
+  } 
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -57,6 +69,8 @@ body {
 .columns {
     display: flex;
     justify-content: space-between;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 .column {
     width: 48%;

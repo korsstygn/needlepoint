@@ -8,7 +8,7 @@
                 <title>
                     <xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="../TEI_GUARDIAN/media/CSS/tei_styles.css"/> <!-- Change 'styles.css' to your CSS file's path -->
+                <link rel="stylesheet" type="text/css" href="media/CSS/tei_styles.css"/> 
             </head>
             <body>
                 <div class="container">
