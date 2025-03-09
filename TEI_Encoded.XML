@@ -1,170 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>East Germans sweep aside Iron Curtain</title>
-                <author>Anna Tomforde</author>
-                <respStmt>
-                    <resp>Transcription</resp>
-                    <name>Klara Chlupata</name>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>The Guardian</publisher>
-                <pubPlace>London and Manchester</pubPlace>
-                <date when="1989-11-10">November 10, 1989</date>
-                <availability>
-                    <p>Reproduced with permission of the copyright owner. Further reproduction prohibited
-    without permission.</p>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Original newspaper article</p>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p>This transcription follows TEI guidelines for encoding printed texts.  Punctuation, capitalization, and
-line breaks are generally preserved.  Obvious typographical errors have been corrected.  Editorial additions or clarifications are
-marked with square brackets. Unclear sections are marked with [unclear].</p>
-            </editorialDecl>
-        </encodingDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-                <pb n="1"/>
-                <div id="ticker">
-                    <head type="main">East Germans sweep aside Iron Curtain <glyph id="filledCircle" desc="A solid, filled circle used as a separator."/>
- All border crossing
-points declared legal</head>
-                </div>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>East Germans sweep aside Iron Curtain</title>
+<author>Anna Tomforde</author>
+<respStmt>
+<resp>Transcription</resp>
+<name>Klara Chlupata</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>The Guardian</publisher>
+<pubPlace>London and Manchester</pubPlace>
+<date when="1989-11-10">November 10, 1989</date>
+<availability>
+<p>Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Original newspaper article</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>This transcription follows TEI guidelines for encoding printed texts.  Punctuation, capitalization, and line breaks are generally preserved.  Obvious typographical errors have been corrected.  Editorial additions or clarifications are marked with square brackets. Unclear sections are marked with [unclear].</p>
+</editorialDecl>
+</encodingDesc>
+</teiHeader>
+<text>
+<body>
 
-                <head type="Title">Communists open Berlin Wall</head>
+<pb n="1"/>
+<div type="columns" data-columns="8">
+<div type="column" span="8">
+<head type="masthead">TheGuardian</head>
+</div>
+</div>
+<div type="columns" data-columns="8">
+<div type="column" span="8">
+<div id="ticker">
+<head type="main">East Germans sweep aside Iron Curtain <glyph id="filledCircle" desc="A solid, filled circle used as a separator."/>
+All border crossing points declared legal</head>
+</div>
+</div>
+</div>
+<div type="columns" data-columns="8">
+<div type="columns" span="8">
 
-                <head type="sub">Exchanges jam in clamour of exit inquiries</head>
-
-                <byline>
-                    <name>
-                        <forename>Anna</forename>
-                        <surname>Tomforde</surname>
-                    </name> in East Berlin</byline>
-
-
-                    <p>
-                        <placeName>
-                            <seg rend="initial">E</seg>AST Germany's</placeName> ruling Communist Party last night took the momentous step
-of allowing all citizens direct passage to the West in a step that renders obsolete the Berlin
-Wall and puts into question the border between the two <placeName>Germanies</placeName>.
-                    </p>
-                    <p> The extraordinary announcement represents the single most dramatic transformation of the
-political map of post-war <placeName>Europe</placeName>. It follows a tumultuous week during which
-the Communist authorities have vainly sought to stem a tide of popular opposition. </p>
-                    <p> Within hours, East Germans on foot and in cars began arriving in <placeName>West
-    Germany</placeName> and <placeName>West Berlin</placeName>. West German television said a
-couple crossed the <placeName>Bornholmer Strasse</placeName> checkpoint in <placeName>West
-    Berlin</placeName> at 9.15 pm (8.15 GMT) with identity cards stamped with the new-style
-visas. </p>
-                    <p> The decision was announced by Mr <persName>
-                        <forename>Guenter</forename>
-                        <surname>Schabowski</surname>
-                    </persName>, a politburo member, after the second day of a central committee meeting in
-                    <placeName>East Berlin</placeName> . He said it would come into effect immediately, and would
-last until new travel regulations were passed into law. </p>
-                <p> Soon afterwards, the official <orgName>ADN</orgName> news agency said tens of thousands of
-people, many probably unaware of the new travel rules, took to the streets in several cities
-demanding free elections and liberalised travel. </p>
-                <p> When <placeName>East German</placeName> television carried the announcement, the station's
-switchboard was jammed almost instantly as thousands of callers tried to elicit more
-information. </p>
-                <p> It was also announced yesterday that <placeName>East Germany's</placeName> parliament will meet
-on Monday to elect a new Prime Minister, and charge him with forming a new government. The
-Communist Party has nominated the reformist, Mr <persName>
-                    <forename>Hans</forename>
-                    <surname>Modrow</surname>
-                </persName>, for the top job in the government, after the former administration under the
-hardliner, Mr <persName>
-                <forename>Willi</forename>
-                <surname>Stoph</surname>
-            </persName>, resigned on Tuesday, the day before the politburo stepped down to make way for a new
-team. </p>
-        <p> East Germans will be able to obtain exit visas without delay, allowing them to cross into the
-West through all border points within <placeName>Berlin</placeName> and along the border with
-            <placeName>West Germany</placeName>. Tourists who want to return to <placeName>East
-    Germany</placeName> can also obtain immediate permission. Because of the exceptional nature
-of the decision, passports will not be needed. “We have decided today that all East Germans who
-want to leave permanently can do so without delay.” </p>
-        <p> The two days of hectic change in <placeName>East Berlin</placeName> received the public blessing
-yesterday of the Soviet foreign ministry spokesman, Mr <persName>
-            <forename>Gennady</forename>
-            <surname>Gerasimov</surname>
-        </persName>, who said: “These changes are for the better, that is for sure.” </p>
-    <p> He hinted that the <placeName>Soviet Union</placeName> would be prepared to accept a
-non-Communist government in <placeName>East Germany</placeName>. 'It's their (<placeName>East
-    Germany's</placeName>) decision, just like in <placeName>Poland</placeName> ...
-        <placeName>Poland</placeName> is a good member of the <orgName>Warsaw Pact</orgName>, and in
-        <placeName>Poland</placeName> you have a coalition, you don't have Communist government in
-        <placeName>Poland</placeName>.” 
-    </p>
-    <p> The numbers fleeing <placeName>East Germany</placeName> this year have now topped 200,000. Since
-last Friday alone, more than 50,000 have left. Yesterday's move has unpredictable consequences,
-but was clearly taken in the hope that the exodus could be slowed by giving people the opportunity
-of travelling or leaving whenever they wished. </p>
-    <p> In a further concession to popular pressure, the Communist Party called a special party
-conference which could result in leadership purges. </p>
-    <p> Both announcements came after a turbulent session of the party's central committee at which
-members demanded “punishment” of those responsible for the political and economic crisis, and
-urged that no time must be lost in moving ahead on the path of renewal. </p>
-    <p> The decision comes against a background of a crippling labour shortage, caused by the exodus.
-Soldiers and members of the secret police, the <orgName>Stasi</orgName>, have been called in to
-help at hospitals, the public services, and public transport. </p>
-    <p> Meanwhile, <placeName>East Germany's</placeName> biggest independent opposition group said it had
-been granted initial recognition as a political movement by the Interior Ministry. <orgName>New
-    Forum</orgName> has been given three months to present a platform, and will then be able to
-contest elections as a “movement” rather than a political party. Mr <persName>
-        <forename>Michael</forename>
-        <surname>Goebel</surname>
-    </persName>, a member, said <orgName>New Forum</orgName> now had 200,000 supporters. </p>
-<p> The special party conference will be held from December 15 to 17. Its representatives have the
-power to elect and sack members of the present central committee. “The party conference could well
-demonstrate who are the reformers and who are the hardliners in the central committee,” one
-observer said. </p>
-<p> Mr <persName>
-    <surname>Schabowski</surname>
-</persName> told reporters that yesterday's session had been “lively”. It concentrated on
-determining the reasons for the crisis and on finding answers to <placeName>East
-    Germany's</placeName> variety of “perestroika”. </p>
-<p> Direct criticism had been levelled at the hardline leadership of Mr <persName>
-<forename>Erich</forename>
-<surname>Honecker</surname>
-</persName> and others, who had failed to recognise the relevance for <placeName>East
-    Germany</placeName> of the reform process in the <placeName>Soviet Union</placeName>. 
-</p>
-<p> Mr <persName>
-<forename>Hans</forename>
-<surname>Modrow</surname>
-</persName>, the reform-minded party chief of <placeName>Dresden</placeName> and a new politburo
-member, spoke of “bitterness” within the party about the grave mistakes of the past. </p>
-<p> The very existence of the party was now at stake, Mr <persName>
-<surname>Modrow</surname>
-</persName> told the central committee, and any further “dithering” would only increase pressure on
-the leadership. “Despite the seriousness of the situation, socialism still has a chance in the
-<placeName>GDR</placeName>,” he said. </p>
+<head type="Title">Communists open Berlin Wall</head>
+</div>
+</div>
+<div type="columns" data-columns="8">
+<div type="column" span="2">
+<head type="sub">Exchanges jam in clamour of exit inquiries</head>
+</div>
+<div type="column" span="1">
+<byline>
+<name>
+<forename>Anna</forename>
+<surname>Tomforde</surname>
+</name> in East Berlin
+</byline>
 
 <p>
+<placeName>
+<seg rend="initial">E</seg>AST Germany's </placeName> ruling Communist Party last night took the momentous step of allowing all citizens direct passage to the West in a step that renders obsolete the Berlin Wall and puts into question the border between the two <placeName>Germanies</placeName>.
+</p>
+<p>The extraordinary announcement represents the single most dramatic transformation of the political map of post-war <placeName>Europe</placeName>. It follows a tumultuous week during which the Communist authorities have vainly sought to stem a tide of popular opposition.</p>
+<p>Within hours, East Germans on foot and in cars began arriving in <placeName>West Germany</placeName> and <placeName>West Berlin</placeName>. West German television said a couple crossed the <placeName>Bornholmer Strasse</placeName> checkpoint in <placeName>West Berlin</placeName> at 9.15 pm (8.15 GMT) with identity cards stamped with the new-style visas.</p>
+<p>The decision was announced by Mr <persName>
+<forename>Guenter</forename>
+<surname>Schabowski</surname>
+</persName>, a politburo member, after the second day of a central committee meeting in <placeName>East Berlin</placeName>. He said it would come into effect immediately, and would last until new travel regulations were passed into law.</p>
+<p>Soon afterwards, the official <orgName>ADN</orgName> news agency said tens of thousands of people, many probably unaware of the new travel rules, took to the streets in several cities demanding free elections and liberalised travel.</p>
+<p>When <placeName>East German</placeName> television carried the announcement, the station's switchboard was jammed almost instantly as thousands of callers tried to elicit more information.</p>
+<p>It was also announced yesterday that <placeName>East Germany's</placeName> parliament will meet on Monday to elect a new Prime Minister, and charge him with forming a new government. The Communist Party has nominated the reformist, Mr <persName>
+<forename>Hans</forename>
+<surname>Modrow</surname>
+</persName>, for the top job in the government, after the former administration under the hardliner, Mr <persName>
+<forename>Willi</forename>
+<surname>Stoph</surname>
+</persName>, resigned on Tuesday, the day before the politburo stepped down to make way for a new team.</p>
+<p>East Germans will be able to obtain exit visas without delay, allowing them to cross into the West through all border points within <placeName>Berlin</placeName> and along the border with <placeName>West Germany</placeName>. Tourists who want to return to <placeName>East Germany</placeName> can also obtain immediate permission. Because of the exceptional nature of the decision, passports will not be needed. “We have decided today that all East Germans who want to leave permanently can do so without delay.”</p>
+<p>The two days of hectic change in <placeName>East Berlin</placeName> received the public blessing yesterday of the Soviet foreign ministry spokesman, Mr <persName>
+<forename>Gennady</forename>
+<surname>Gerasimov</surname>
+</persName>, who said: “These changes are for the better, that is for sure.”</p>
+<p>He hinted that the <placeName>Soviet Union</placeName> would be prepared to accept a non-Communist government in <placeName>East Germany</placeName>. 'It's<cb/>
+their (<placeName>East Germany's</placeName>) decision, just like in <placeName>Poland</placeName> ...    <placeName>Poland</placeName> is a good member of the <orgName>Warsaw Pact</orgName>, and in <placeName>Poland</placeName> you have a coalition, you don't have Communist government in <placeName>Poland</placeName>.”
+</p>
+<p>The numbers fleeing <placeName>East Germany</placeName> this year have now topped 200,000. Since last Friday alone, more than 50,000 have left. Yesterday's move has unpredictable consequences, but was clearly taken in the hope that the exodus could be slowed by giving people the opportunity of travelling or leaving whenever they wished.</p>
+<p>In a further concession to popular pressure, the Communist Party called a special party conference which could result in leadership purges.</p>
+<p>Both announcements came after a turbulent session of the party's central committee at which members demanded “punishment” of those responsible for the political and economic crisis, and urged that no time must be lost in moving ahead on the path of renewal.</p>
+<p>The decision comes against a background of a crippling labour shortage, caused by the exodus. Soldiers and members of the secret police, the <orgName>Stasi</orgName>, have been called in to help at hospitals, the public services, and public transport.</p>
+<p>Meanwhile, <placeName>East Germany's</placeName> biggest independent opposition group said it had been granted initial recognition as a political movement by the Interior Ministry. <orgName>New Forum</orgName> has been given three months to present a platform, and will then be able to contest elections as a “movement” rather than a political party. Mr <persName>
+<forename>Michael</forename>
+<surname>Goebel</surname>
+</persName>, a member, said <orgName>New Forum</orgName> now had 200,000 supporters.</p>
+<p>The special party conference will be held from December 15 to 17. Its representatives have the power to elect and sack members of the present central committee. “The party conference could well demonstrate who are the reformers and who are the hardliners in the central committee,” one observer said.</p>
+<p>Mr <persName>
+<surname>Schabowski</surname>
+</persName> told reporters that yesterday's session had been “lively”. It concentrated on determining the reasons for the crisis and on finding answers to <placeName>East Germany's</placeName> variety of “perestroika”.</p>
+<p>Direct criticism had been levelled at the hardline leadership of Mr <persName>
+<forename>Erich</forename>
+<surname>Honecker</surname>
+</persName> and others, who had failed to recognise the relevance for <placeName>East Germany</placeName> of the reform process in the <placeName>Soviet Union</placeName>.
+</p>
+<p>Mr <persName>
+<forename>Hans</forename>
+<surname>Modrow</surname>
+</persName>, the reform-minded party chief of <placeName>Dresden</placeName> and a new politburo member, spoke of “bitterness” within the party about the grave mistakes of the past.</p>
+<p>The very existence of the party was now at stake, Mr <persName>
+<surname>Modrow</surname>
+</persName> told the central committee, and any further “dithering” would only increase pressure on the leadership. “Despite the seriousness of the situation, socialism still has a chance in the <placeName>GDR</placeName>,” he said.</p>
+<p>
+<hr />
 <ref target="#page10">East German crisis, page 10;</ref>
 <lb/>
-<ref target="#page16">City Notebook, page 16;</ref> Future
-<lb/>
+<ref target="#page16">City Notebook, page 16;</ref> Future <lb/>
 Without Wall, <ref target="#page23">page 23</ref>
 </p>
+</div>
+</div>
 
-
-
-<figure>
+<div type="column" class="main-image" span="4">
+<figure >
+<graphic url="media/img/brandenburg-gate.png"/>
 <head>Gateway to freedom…The Brandeburg Gate, until now a symbol of a divided Berlin</head>
 <figDesc>Photograph of the Brandenburg Gate in Berlin.</figDesc>
+
 <p>PHOTOGRAPH: <persName>
 <forename>MARTIN</forename>
 <surname>ARGLES</surname>
@@ -173,189 +138,101 @@ Without Wall, <ref target="#page23">page 23</ref>
 </figure>
 </div>
 <div>
-
 <head type="main">West awaiting 1.4 million migrants</head>
 <byline>Foreign Staff</byline>
 <p> MEMBERS of <placeName>West Germany’s</placeName>
-<orgName>Bundestag</orgName> burst into a rousing rendition of <hi rend="italic">Deutschland
-    Uber Alles</hi> when the word of the <placeName>East German</placeName> decision to allow its
-citizens to travel freely to the West was passed around the chamber. </p>
-
-<p> MPs immediately abandoned routine business and began an emergency debate in the expectation that
-up to 1.4 million East Germans who had applied to emigrate before last night’s dramatic
-announcement could begin moving West. </p>
-
-<p> But the implications of such an exodus chastened the <orgName>Bundestag</orgName>. Mr
-<persName>
+<orgName>Bundestag</orgName> burst into a rousing rendition of <hi rend="italic">Deutschland Uber Alles</hi> when the word of the <placeName>East German</placeName> decision to allow its citizens to travel freely to the West was passed around the chamber. </p>
+<p> MPs immediately abandoned routine business and began an emergency debate in the expectation that up to 1.4 million East Germans who had applied to emigrate before last night’s dramatic announcement could begin moving West. </p>
+<p> But the implications of such an exodus chastened the <orgName>Bundestag</orgName>. Mr <persName>
 <forename>Wolfgan</forename>
 <surname>Mischnik</surname>
 </persName>, floor leader of the Liberal Free Democrats in Chancellor <persName>
 <forename>Helmut</forename>
 <surname>Kohl’s</surname>
-</persName> coalition government, wound up the session with a plea: “For those who are still
-undecided, I beseech you, stay at home!” </p>
+</persName> coalition government, wound up the session with a plea: “For those who are still undecided, I beseech you, stay at home!” </p>
 <p> A worried-looking <placeName>West Berlin</placeName> mayor, Mr <persName>
 <forename>Walter</forename>
 <surname>Momper</surname>
-</persName>, urged East Berliners in a television appeal to put off their trips for a day or two
-because the city could not cope. </p>
-
-<p> “Anyone who wants can come over,” he said. But “please even with all the understandable joy you
-must be feeling being able to come to the West, please do it tomorrow, do it the day after
-tomorrow. We are having problems dealing with this.” </p>
-
-<p> Nonetheless, in <placeName>West Berlin</placeName>, local politicians and residents rushed to the
-Wall to greet the first arrivals from the East, who passed unhindered and watched by bemused
-guards. </p>
-
+</persName>, urged East Berliners in a television appeal to put off their trips for a day or two because the city could not cope. </p>
+<p> “Anyone who wants can come over,” he said. But “please even with all the understandable joy you must be feeling being able to come to the West, please do it tomorrow, do it the day after tomorrow. We are having problems dealing with this.” </p>
+<p> Nonetheless, in <placeName>West Berlin</placeName>, local politicians and residents rushed to the Wall to greet the first arrivals from the East, who passed unhindered and watched by bemused guards. </p>
 <p> Dr <persName>
 <surname>Kohl</surname>
-</persName>, in <placeName>Warsaw</placeName> at the start of a five-day visit, reacted to the
-news by calling for talks with <placeName>East Germany’s</placeName> President <persName>
+</persName>, in <placeName>Warsaw</placeName> at the start of a five-day visit, reacted to the news by calling for talks with <placeName>East Germany’s</placeName> President <persName>
 <forename>Egon</forename>
 <surname>Krenz</surname>
-</persName>. 
+</persName>.
 </p>
-
-<p> Delegation sources said he would probably break off his visit to handle the “dramatic situation”,
-but would return to <placeName>Warsaw</placeName> by tomorrow night. Dr <persName>
+<p> Delegation sources said he would probably break off his visit to handle the “dramatic situation”, but would return to <placeName>Warsaw</placeName> by tomorrow night. Dr <persName>
 <surname>Kohl</surname>
 </persName> said that he would contact President <persName>
 <forename>Mikhail</forename>
 <surname>Gorbachev</surname>
-</persName>. 
+</persName>.
 </p>
-
-<p> Early today, the Western allies in -- the <placeName>US</placeName>,<placeName>Britain</placeName>,
-and <placeName>France</placeName> -- issued a joint statement welcoming the lifting of border
-rrestrictions <sic>rrestrictions</sic>. “Although the full impact of these measures cannot yet be
-determined, they appear to signal a major and very positive development in the direction of a
-basic human right: the right of free and unrestricted travel.” </p>
-
+<p> Early today, the Western allies in -- the <placeName>US</placeName>,<placeName>Britain</placeName>, and <placeName>France</placeName> -- issued a joint statement welcoming the lifting of border rrestrictions <sic>rrestrictions</sic>. “Although the full impact of these measures cannot yet be determined, they appear to signal a major and very positive development in the direction of a basic human right: the right of free and unrestricted travel.” </p>
 <p> In <placeName>Washington</placeName>, President <persName>
 <forename>George H.W.</forename>
 <surname>Bush</surname>
-</persName> declared: “I’m very pleased -- I’m not elated because I am not an emotional kind of
-guy.” The opening of the <placeName>East German</placeName> borders was “the kind of development we
-have long shown our strong support for”, he added. </p>
-
-<p> During an informal session with reporters, he stressed the <placeName>US</placeName> commitment to
-stability in <placeName>Europe</placeName>. “We are not trying to give anybody a hard time,” he
-said. “I don’t think any single event means the end </p>
+</persName> declared: “I’m very pleased -- I’m not elated because I am not an emotional kind of guy.” The opening of the <placeName>East German</placeName> borders was “the kind of development we have long shown our strong support for”, he added. </p>
+<p> During an informal session with reporters, he stressed the <placeName>US</placeName> commitment to stability in <placeName>Europe</placeName>. “We are not trying to give anybody a hard time,” he said. “I don’t think any single event means the end </p>
 <p>
 <ref target="#page24col2">Turn to page 24, column 2</ref>
 </p>
 </div>
-
 <div type="article">
 <head>Revellers rush on hated gates</head>
 <byline>Anna Tomforde and Agencies in East Berlin</byline>
 <p>
-<seg rend="initial">H</seg>UNDREDS of youths last night clambered up to dance atop the Berlin Wall near the most potent symbol of the divided Germanies, the Brandenburg Gate. West Germans, carrying hammers to chip away at the surface, rushed forward to greet them.
-</p>
-<p>
-East German border guards at times sprayed the crowd with water cannon but otherwise let the crowd revel on unchecked.
-</p>
-<p>
-"Open the gate! Open the gate!" the East Berliners shouted as the gathering grew with the news that the borders would be opened.
-</p>
-<p>
-All along the wall, West Berliners trampled over the white demarcation line dividing the city, in effect crossing into the East.
-</p>
-<p>
-Groups of people held aloft bottles of beer and champagne and climbed up scaffolding to get a better view of the bewildering scenes.
-</p>
-<p>
-At the Bornholmer Strasse crossing point, a line of cars more than half a mile long piled up, with drivers tooting their horns in joy.
-</p>
-<p>
-Border police just gave up and let everybody through without checking, and first aid teams were on hand to help some people who fainted with emotion.
-</p>
-<p>
-“We’re off to the Kudamm,” pedestrians shouted as they whooped and cheered their way towards the crossing point like football fans flocking into a stadium. Kurfuerstendamm is the main boulevard in the centre of West Berlin.
-</p>
-<p>
-"I'm just going over to have a look," one excited man said. Another added: "My wife is at home crying her eyes out because she has to look after the kids and can't come."
-</p>
-<p>
-Trams rumbling towards the end station near the crossing point were packed with cheering East Berliners. Those returning towards the centre of town were as empty as ghost trains.
-</p>
-<p>
-“I was a little girl when the Berlin Wall was built. It was terrible,” recalled a woman in her early 40s at the Brandenburg Gate. “From now on, I will be able to visit my friends and relatives without the emotional strain and bureaucratic obstacles”, she said. “It had come to an end.”
-</p>
-<p>
-A lorry driver at one of the crossing points said it was a “day of joy” for East Germans.
-</p>
-<p>
-A 19-year-old woman, whose close friend had left for the West only three weeks ago, was overjoyed: "I can't believe it, it is wonderful, now I can go and visit her."
-</p>
-<p>
-Meanwhile, at the Checkpoint Charlie crossing point, East German border police were stunned last night to learn that citizens could travel freely to the West.
-</p>
-<p>
-In the 28 years since the Wall was built, some 175 East Germans have been shot dead trying to flee to the West. The precise number of casualties is unknown, however, as many were wounded and dragged back, possibly to die later.
-</p>
-<p>
-"People are going to read this and say 'there must be some mistake'," said a young guard, shaken out of his normally severe bearing and talking animatedly.
-</p>
-<p>
-"It's not good," another said an hour after the decision was announced. "We will lose our jobs."
-</p>
-<p>
-Traffic was light at the famous crossing, meant for foreign travellers through the communist-built Wall, and only a few East Germans were hanging around near the brightly-lit post.
-</p>
-<p>
-The commanding border police officer, a man about 30, slowly and deliberately read a dispatch about the open borders from the official news agency, ADN.
-</p>
-<p>
-“They [the people] will have to read this over very carefully, sometimes you have to read between the lines,” he said, pointing to a line saying official permission to travel was still needed.
-</p>
-<p>
-Asked how many people might want to leave, the officer said he had heard talk in the force that two million of East Germany's 16 million people might pack up and move West.
-</p>
-<p>
-He said many could turn up as early as this morning, with or without the necessary papers, and agreed the early shift would be "interesting".
-</p>
+<seg rend="initial">H</seg>UNDREDS of youths last night clambered up to dance atop the Berlin Wall near the most potent symbol of the divided Germanies, the Brandenburg Gate. West Germans, carrying hammers to chip away at the surface, rushed forward to greet them. </p>
+<p> East German border guards at times sprayed the crowd with water cannon but otherwise let the crowd revel on unchecked. </p>
+<p> "Open the gate! Open the gate!" the East Berliners shouted as the gathering grew with the news that the borders would be opened. </p>
+<p> All along the wall, West Berliners trampled over the white demarcation line dividing the city, in effect crossing into the East. </p>
+<p> Groups of people held aloft bottles of beer and champagne and climbed up scaffolding to get a better view of the bewildering scenes. </p>
+<p> At the Bornholmer Strasse crossing point, a line of cars more than half a mile long piled up, with drivers tooting their horns in joy. </p>
+<p> Border police just gave up and let everybody through without checking, and first aid teams were on hand to help some people who fainted with emotion. </p>
+<p> “We’re off to the Kudamm,” pedestrians shouted as they whooped and cheered their way towards the crossing point like football fans flocking into a stadium. Kurfuerstendamm is the main boulevard in the centre of West Berlin. </p>
+<p> "I'm just going over to have a look," one excited man said. Another added: "My wife is at home crying her eyes out because she has to look after the kids and can't come." </p>
+<p> Trams rumbling towards the end station near the crossing point were packed with cheering East Berliners. Those returning towards the centre of town were as empty as ghost trains. </p>
+<p> “I was a little girl when the Berlin Wall was built. It was terrible,” recalled a woman in her early 40s at the Brandenburg Gate. “From now on, I will be able to visit my friends and relatives without the emotional strain and bureaucratic obstacles”, she said. “It had come to an end.” </p>
+<p> A lorry driver at one of the crossing points said it was a “day of joy” for East Germans. </p>
+<p> A 19-year-old woman, whose close friend had left for the West only three weeks ago, was overjoyed: "I can't believe it, it is wonderful, now I can go and visit her." </p>
+<p> Meanwhile, at the Checkpoint Charlie crossing point, East German border police were stunned last night to learn that citizens could travel freely to the West. </p>
+<p> In the 28 years since the Wall was built, some 175 East Germans have been shot dead trying to flee to the West. The precise number of casualties is unknown, however, as many were wounded and dragged back, possibly to die later. </p>
+<p> "People are going to read this and say 'there must be some mistake'," said a young guard, shaken out of his normally severe bearing and talking animatedly. </p>
+<p> "It's not good," another said an hour after the decision was announced. "We will lose our jobs." </p>
+<p> Traffic was light at the famous crossing, meant for foreign travellers through the communist-built Wall, and only a few East Germans were hanging around near the brightly-lit post. </p>
+<p> The commanding border police officer, a man about 30, slowly and deliberately read a dispatch about the open borders from the official news agency, ADN. </p>
+<p> “They [the people] will have to read this over very carefully, sometimes you have to read between the lines,” he said, pointing to a line saying official permission to travel was still needed. </p>
+<p> Asked how many people might want to leave, the officer said he had heard talk in the force that two million of East Germany's 16 million people might pack up and move West. </p>
+<p> He said many could turn up as early as this morning, with or without the necessary papers, and agreed the early shift would be "interesting". </p>
 </div>
 <div>
-
 <head type="section">News in brief</head>
 <p>………………………………………………</p>
 <p>
-<head rend="bold">Nat West Faces fraud charges</head>
-The City arm of the <orgName>National WestMinster Bank</orgName> and the leading firm of stockbrokers are to appear in court today on fraud charges relating to events surrounding an £837 million cash-raising exercise by the recruitment agency <orgName>Blue Arrow</orgName> two years ago.  <ref target="#page24">Page 24</ref>
+<head rend="bold">Nat West Faces fraud charges</head> The City arm of the <orgName>National WestMinster Bank</orgName> and the leading firm of stockbrokers are to appear in court today on fraud charges relating to events surrounding an £837 million cash-raising exercise by the recruitment agency <orgName>Blue Arrow</orgName> two years ago.  <ref target="#page24">Page 24</ref>
 </p>
-
 <p>
 <head rend="bold">Ford strike ballot</head>
 <orgName>Ford</orgName> union leaders are to ballot 32,000 hourly-paid workers on strike action following their rejection last night of a 9.5 per cent pay offer, the highest in the current autumn round. <ref target="#page4">Page 4</ref>
 </p>
-
-
 <p>
-<head rend="bold">Milk ‘plot’ questioned</head>
-The Agriculture Minister Mr <persName>
+<head rend="bold">Milk ‘plot’ questioned</head> The Agriculture Minister Mr <persName>
 <forename>John</forename>
 <surname>Gummer</surname>
 </persName>’s claims that a criminal conspiracy has caused contamination of British milk have been treated with scepticism by European Community officials.  <ref target="#page4">Page 4</ref>
 </p>
-
 <p>
-<head rend="bold">Deng gives up control</head>
-China’s supreme leader, Mr <persName>
+<head rend="bold">Deng gives up control</head> China’s supreme leader, Mr <persName>
 <forename>Deng</forename>
 <surname>Xiaoping</surname>
 </persName>, has resigned his last post, leaving power in the hands of headliners. <ref target="#page24">Page 24</ref>
 </p>
-
 <p>
-<head rend="bold">Jet crashes into flats</head>
-A <placeName>US</placeName> navy jet crashed into an apartment block in <placeName>Atlanta</placeName>,<placeName>Georgia</placeName>, last night, killing at least one person and injuring several others, including the pilot who baled out.
-</p>
-
+<head rend="bold">Jet crashes into flats</head> A <placeName>US</placeName> navy jet crashed into an apartment block in <placeName>Atlanta</placeName>,<placeName>Georgia</placeName>, last night, killing at least one person and injuring several others, including the pilot who baled out. </p>
 <p>
-<head rend="bold">Plan for colony elite</head>
-The Foreign Secretary, Mr <persName>
+<head rend="bold">Plan for colony elite</head> The Foreign Secretary, Mr <persName>
 <forename>Douglas</forename>
 <surname>Hurd</surname>
 </persName>, plans to grant right of abode to up to 200,000 “important” <placeName>Hong Kong</placeName> citizens, according to a <placeName>Hong Kong</placeName> newspaper report.  <ref target="#page13">Page 13</ref>
@@ -363,50 +240,24 @@ The Foreign Secretary, Mr <persName>
 <head type="index">Inside</head>
 <p>………………………………………………</p>
 </div>
-
 <div>
 <head type="Secondary">Nuclear reactors scrapped</head>
 <byline>Alan Travis and Patrick Donovan</byline>
 <p>
-<seg rend="initial">T</seg>HE Government yesterday signalled the end of its practical hopes for a big expansion of nuclear power by abandoning plans to build three new pressurised water reactors.
-</p>
-<p>
-Ministers intend to maintain a nuclear option, the cost of which will be reviewed after 1994, and will press ahead with the Sizewell B power station under construction. It appeared last night that the Prime Minister’s determination, born in the heat of the miners’ strike five years ago, to see a nuclear-fuelled Britain, had suffered a severe setback. It also dashed Mrs Thatcher’s hopes of securing the argument that nuclear power is more environmentally friendly than coal.<lb/>
-The Central Electricity Generating Board was asked yesterday to reconsider its applications to build further PWR stations at Hinkley Point C, Wylfa B and Sizewell C. The Hinkley inquiry, which was due to reach its conclusion next week, is likely to be abandoned.
-</p>
-<p>
-The rapid scaling down of the government’s nuclear ambitions came as the Energy Secretary, Mr John Wakeman, confirmed to the House of Commons that all Britain’s nuclear power stations are to be pulled from next year’s staggered £20 billion sale of the electricity industry.
-</p>
-<p>
-Later last night Mr Wakeham said the long-expected decision had been forced by the refusal of City banks and institutions to carry the financial risk of decommissioning radioactive power stations and disposal of nuclear waste. He said if he agreed to the flotation terms demanded by the City “this would not have been a privatisation”.
-</p>
-<p>
-Lord Marshall, chairman of National Power, the CEGB successor company formed to operate nuclear power in the private sector, has been asked by the Government to resign. In a letter to all National Power staff, Lord Marshall yesterday said he was “reviewing his position”. He is expected to announce his departure today.
-</p>
-<p>
-Conservative MPs claimed Lord Marshall for misleading the Government over the future costs of nuclear power. Mr Wakeham was privately said to have blamed his predecessor, Mr Cecil Parkinson, for the disasters surrounding electricity privatisation. He told the Commons yesterday the previous estimates did not bear any true relationship to the costs of nuclear power: “I am not blaming anybody particularly for that, but it was in fact only on October 11 that I finally managed to get the figures I needed to make this decision, having pressed very hard for them from the moment I arrived in office.”
-</p>
-<p>
-The Government is to retain the 10 ageing Magnox stations and seven AGRs in a new publicly-owned nuclear company, chaired by Mr John Collier, currently chairman of the Atomic Energy Authority.
-</p>
-<p>
-National Power’s chief executive, Mr John Baker, said the move had “considerable implications for the development of nuclear power in Britain”. “In taking these steps, the Government has decided that its overriding priority is the successful privatisation of the electricity industry,” he said.
-</p>
-<p>
-Mr Collier said there was public confusion over nuclear power. “We have to demonstrate that nuclear power is not only safe but economic. There is no doubt that the public has been confused by press reports about the financial risks of nuclear power.”
-</p>
-<p>
-The announcement means 80 per cent of the £2.7 billion assets of the South of Scotland Electricity Board will remain in public ownership.
-</p>
-<p>
-The new English nuclear company will have a “positive cash flow” but it was clear last night that its “profitability” would depend on the nuclear tax levied on the rest of the electricity industry.
-</p>
-<p>
-Labour’s energy spokesman, Mr Frank Dobson, last night described the announcement as a humiliating climbdown which had to be taken as the nuclear power stations had proved unsaleable.
-</p>
-<p>
-Reports, page 2; Leader Comment, page 22
-</p>
+<seg rend="initial">T</seg>HE Government yesterday signalled the end of its practical hopes for a big expansion of nuclear power by abandoning plans to build three new pressurised water reactors. </p>
+<p> Ministers intend to maintain a nuclear option, the cost of which will be reviewed after 1994, and will press ahead with the Sizewell B power station under construction. It appeared last night that the Prime Minister’s determination, born in the heat of the miners’ strike five years ago, to see a nuclear-fuelled Britain, had suffered a severe setback. It also dashed Mrs Thatcher’s hopes of securing the argument that nuclear power is more environmentally friendly than coal.<lb/>
+The Central Electricity Generating Board was asked yesterday to reconsider its applications to build further PWR stations at Hinkley Point C, Wylfa B and Sizewell C. The Hinkley inquiry, which was due to reach its conclusion next week, is likely to be abandoned. </p>
+<p> The rapid scaling down of the government’s nuclear ambitions came as the Energy Secretary, Mr John Wakeman, confirmed to the House of Commons that all Britain’s nuclear power stations are to be pulled from next year’s staggered £20 billion sale of the electricity industry. </p>
+<p> Later last night Mr Wakeham said the long-expected decision had been forced by the refusal of City banks and institutions to carry the financial risk of decommissioning radioactive power stations and disposal of nuclear waste. He said if he agreed to the flotation terms demanded by the City “this would not have been a privatisation”. </p>
+<p> Lord Marshall, chairman of National Power, the CEGB successor company formed to operate nuclear power in the private sector, has been asked by the Government to resign. In a letter to all National Power staff, Lord Marshall yesterday said he was “reviewing his position”. He is expected to announce his departure today. </p>
+<p> Conservative MPs claimed Lord Marshall for misleading the Government over the future costs of nuclear power. Mr Wakeham was privately said to have blamed his predecessor, Mr Cecil Parkinson, for the disasters surrounding electricity privatisation. He told the Commons yesterday the previous estimates did not bear any true relationship to the costs of nuclear power: “I am not blaming anybody particularly for that, but it was in fact only on October 11 that I finally managed to get the figures I needed to make this decision, having pressed very hard for them from the moment I arrived in office.” </p>
+<p> The Government is to retain the 10 ageing Magnox stations and seven AGRs in a new publicly-owned nuclear company, chaired by Mr John Collier, currently chairman of the Atomic Energy Authority. </p>
+<p> National Power’s chief executive, Mr John Baker, said the move had “considerable implications for the development of nuclear power in Britain”. “In taking these steps, the Government has decided that its overriding priority is the successful privatisation of the electricity industry,” he said. </p>
+<p> Mr Collier said there was public confusion over nuclear power. “We have to demonstrate that nuclear power is not only safe but economic. There is no doubt that the public has been confused by press reports about the financial risks of nuclear power.” </p>
+<p> The announcement means 80 per cent of the £2.7 billion assets of the South of Scotland Electricity Board will remain in public ownership. </p>
+<p> The new English nuclear company will have a “positive cash flow” but it was clear last night that its “profitability” would depend on the nuclear tax levied on the rest of the electricity industry. </p>
+<p> Labour’s energy spokesman, Mr Frank Dobson, last night described the announcement as a humiliating climbdown which had to be taken as the nuclear power stations had proved unsaleable. </p>
+<p> Reports, page 2; Leader Comment, page 22 </p>
 </div>
 <div type="advertisement">
 <figure>
@@ -443,11 +294,9 @@ ___________________________________8B192</item>
 </list>
 </div>
 
-<div>
-
 <head type="copyright"></head>
 <p>Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.</p>
-</div>
+
 </body>
 </text>
 </TEI>

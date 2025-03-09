@@ -1,100 +1,131 @@
+/* 1. General Styles:
+The @import rule imports the Google Font 'Inter' for use in the document.
+General font and line-height settings for the TEI document and body.
+
+2. Container and Header:
+.container centers the content with a width of 80%.
+.header styles the header with flexbox, centering elements vertically and spacing them horizontally.
+
+3. Text and Image Styles:
+.headline, .subheadings, .main-image, and .article provide styling for headlines, subheadings, images, and article sections.
+
+4. Columns Layout:
+.columns-container and .columns use flexbox to create a flexible column layout.
+.column styles individual columns with padding and ensures they grow to fill available space.
+
+5. Column Break and Grid:
+.column-break ensures the column break takes up the full width.
+.article-container and .eight-column use CSS grid to define an eight-column layout and span elements across all columns. */
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
 
+/* General font and line-height settings for the TEI document */
 TEI {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-  }
-  
-  teiHeader {
-    display: none; /* Hide header metadata*/
-  } 
+}
 
+/* Hide header metadata */
+/* teiHeader {
+    display: none;
+} */
 
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.2;
+    font-size: 0.85em;
+    line-height: 1em;
 }
+
 .container {
-    width: 80%;
-    margin: auto;
+    width: 80%; /* Sets the width of the container to 80% of the viewport */
+    margin: auto; /* Centers the container */
 }
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    border-bottom: 2px solid black;
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Distributes space evenly between children */
+    align-items: center; /* Aligns items vertically center */
+    padding: 20px 0; /* Adds vertical padding */
+    border-bottom: 2px solid black; /* Adds a bottom border */
 }
+
 .logo {
-    width: 150px;
+    width: 150px; /* Sets the width of the logo */
 }
+
 .info {
-    font-size: 0.9em;
-    color: gray;
-    text-align: right;
+    font-size: 0.9em; /* Sets the font size */
+    color: gray; /* Sets the text color */
+    text-align: right; /* Aligns text to the right */
 }
+
 .ticker {
-    background-color: black;
-    height: 5px;
-    margin-bottom: 20px;
+    background-color: black; /* Sets the background color */
+    height: 5px; /* Sets the height */
+    margin-bottom: 20px; /* Adds a bottom margin */
 }
+
 .headline {
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px 0;
+    font-size: 2em; /* Sets the font size */
+    font-weight: bold; /* Makes the text bold */
+    text-align: center; /* Centers the text */
+    margin: 20px 0; /* Adds vertical margins */
 }
+
 .subheadings {
-    font-size: 1.2em;
-    color: gray;
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 1.2em; /* Sets the font size */
+    color: gray; /* Sets the text color */
+    text-align: center; /* Centers the text */
+    margin-bottom: 20px; /* Adds a bottom margin */
 }
+
 .main-image {
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
+    width: 100%; /* Sets the width to 100% of the container */
+    height: auto; /* Maintains aspect ratio */
+    margin: 20px 0; /* Adds vertical margins */
 }
+
 .article {
-    margin: 20px 0;
-    padding-bottom: 20px;
-    border-bottom: 1px solid gray;
+    margin: 20px 0; /* Adds vertical margins */
+    padding-bottom: 20px; /* Adds bottom padding */
+    border-bottom: 1px solid gray; /* Adds a bottom border */
 }
+
 .article-title {
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-weight: bold; /* Makes the text bold */
+    margin-bottom: 10px; /* Adds a bottom margin */
 }
-.columns {
-    display: flex;
-    justify-content: space-between;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+
+.columns-container {
+    display: flex; /* Uses flexbox for layout */
+    flex-wrap: wrap; /* Allows the columns to wrap */
+    gap: 10px; /* Adds space between columns */
 }
+
 .column {
-    width: 48%;
+    text-align: justify;
+    flex: 0 0 calc(100% / 8); /* Sets column width to 1/8th of the container */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    padding: 10px; /* Adds padding */
 }
-.column-divider {
-    width: 1px;
-    background-color: gray;
-    margin: 0 10px;
+
+.column-break {
+    flex-basis: 100%; /* Makes the column break take up full width */
+    height: 0; /* Sets height to zero */
 }
-.brief {
-    border-top: 2px solid black;
-    margin-top: 20px;
-    padding-top: 20px;
+
+.article-container {
+    display: grid; /* Uses CSS grid layout */
+    grid-template-columns: repeat(8, 1fr); /* Defines an 8-column grid */
+    gap: 10px; /* Adds space between grid items */
 }
-.brief-title {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-.ad-container {
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 2px solid black;
-}
-.ad-title {
-    font-weight: bold;
-    margin-bottom: 10px;
+
+.eight-column {
+    grid-column: span 8; /* Spans the element across all 8 columns */
 }
