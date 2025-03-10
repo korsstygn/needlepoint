@@ -10,7 +10,7 @@ def tei_to_html(tei_file, xsl_file, output_file):
 
     # Print the content of the TEI file
     with open(tei_file, 'r', encoding='UTF-8') as f:
-        print("TEI file content preview:", f.read(100))
+        print("TEI file content preview:", f.read(500))
 
     # Parse the TEI and XSL files
     tei_doc = etree.parse(tei_file) 

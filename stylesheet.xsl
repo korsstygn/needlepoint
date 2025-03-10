@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
     <xsl:template match="/">
@@ -10,7 +8,7 @@
                 <title>
                     <xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="media/CSS/tei_styles.css"/>
+                <link rel="stylesheet" type="text/css" href="media/CSS/tei_styles.css"/> 
             </head>
             <body>
                 <div class="container">
@@ -22,65 +20,12 @@
 
     <xsl:template match="tei:body">
         <xsl:apply-templates select="tei:div"/>
-    </xsl:template>
+    </xsl:template> 
 
     <xsl:template match="tei:div">
-        <xsl:choose>
-            <xsl:when test="@type='article'">
-                <div class="article-container">
-                    <xsl:apply-templates select="tei:head | tei:byline"/>
-                    <div class="column">
-                        <xsl:apply-templates select="tei:p | tei:cb"/>
-                    </div>
-                </div>
-            </xsl:when>
-            <xsl:when test="@type='columns'">
-                <div class="article-container" style="grid-template-columns: repeat({@data-columns}, 1fr);">
-                    <xsl:apply-templates select="tei:head | tei:byline"/>
-                    <div class="columns-container">
-                        <xsl:apply-templates select="tei:div[@type='column'] | tei:cb"/>
-                    </div>
-                </div>
-            </xsl:when>
-            <xsl:when test="@type='section'">
-                <div class="section-container">
-                    <xsl:apply-templates select="tei:head"/>
-                    <xsl:apply-templates select="tei:div[@type='article' or @type='columns']"/>
-                </div>
-            </xsl:when>
-            <xsl:when test="@type='advertisement'">
-                <div class="advertisement-container">
-                    <xsl:apply-templates/>
-                </div>
-            </xsl:when>
-            <xsl:when test="@type='horizontal-divider'">
-                <hr/>
-            </xsl:when>
-            <xsl:when test="@type='masthead'">
-                <div class="masthead">
-                    <xsl:apply-templates/>
-                </div>
-            </xsl:when>
-            <xsl:when test="@type='ticker'">
-                <div class="ticker">
-                    <xsl:apply-templates/>
-                </div>
-            </xsl:when>
-            <xsl:otherwise>
-                <div>
-                    <xsl:apply-templates/>
-                </div>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-
-    <xsl:template match="tei:div[@type='column']">
-        <div class="column" style="grid-column: span {(@span)};">
-            <xsl:apply-templates/>
+        <div class="article-container">
+            <xsl:apply-templates select="tei:head | tei:byline | tei:p | tei:figure | tei:list"/>
         </div>
-        <xsl:if test="position() != last()">
-            <div class="column-divider"></div>
-        </xsl:if>
     </xsl:template>
 
     <xsl:template match="tei:head">
@@ -92,19 +37,22 @@
     </xsl:template>
 
     <xsl:template match="tei:byline">
-        <div class="byline-container">
-            <hr/>
-            <p class="byline">
-                <em>
-                    <xsl:apply-templates/>
-                </em>
-            </p>
-            <hr/>
-        </div>
+        <p class="byline">
+            <em>
+                <xsl:apply-templates/>
+            </em>
+        </p>
     </xsl:template>
 
-    <xsl:template match="tei:cb">
-        <div class="column-break"></div>
+    <xsl:template match="tei:p">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+        <xsl:template match="tei:lb">
+        <br />
+            <xsl:apply-templates/>
+        
     </xsl:template>
 
     <xsl:template match="tei:figure">
@@ -153,17 +101,41 @@
         </span>
     </xsl:template>
 
+    <xsl:template match="tei:hi[@rend='italic']">
+        <span style="font-style: italic;">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
     <xsl:template match="tei:head[@rend='bold']">
         <span style="font-weight: bold;">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
-    <xsl:template match="tei:head[@type='sub']">
-        <div class="sub-headline-container">
-            <span class="sub-headline">
-                <xsl:value-of select="."/>
-            </span>
+    <!-- New template for column structure -->
+    <xsl:template match="tei:div[@type='columns']">
+        <div class="columns-container">
+            <xsl:for-each select="tei:div[@type='column']">
+                <div class="column">
+                    <xsl:apply-templates/>
+                </div>
+                <xsl:if test="position() != last()">
+                    <div class="column-divider"></div>
+                </xsl:if>
+            </xsl:for-each>
         </div>
+    </xsl:template>
+
+    <!-- New template for ad container -->
+    <xsl:template match="tei:div[@type='ad']">
+        <div class="ad-container">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <!-- New template for horizontal divider -->
+    <xsl:template match="tei:div[@type='horizontal-divider']">
+        <div class="horizontal-divider"></div>
     </xsl:template>
 </xsl:stylesheet>
