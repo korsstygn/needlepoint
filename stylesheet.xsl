@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:tei="http://www.tei-c.org/ns/1.0">
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
     <xsl:template match="/">
@@ -8,7 +10,7 @@
                 <title>
                     <xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="media/CSS/tei_styles.css"/> 
+                <link rel="stylesheet" type="text/css" href="media/CSS/tei_styles.css"/>
             </head>
             <body>
                 <div class="container">
@@ -20,7 +22,7 @@
 
     <xsl:template match="tei:body">
         <xsl:apply-templates select="tei:div"/>
-    </xsl:template> 
+    </xsl:template>
 
     <xsl:template match="tei:div">
         <div class="article-container">
@@ -49,10 +51,10 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-        <xsl:template match="tei:lb">
+    <xsl:template match="tei:lb">
         <br />
-            <xsl:apply-templates/>
-        
+        <xsl:apply-templates/>
+
     </xsl:template>
 
     <xsl:template match="tei:figure">
@@ -73,20 +75,12 @@
         </li>
     </xsl:template>
 
-    <xsl:template match="tei:placeName">
-        <xsl:choose>
-            <xsl:when test="tei:seg[@rend='initial']">
-                <span style="font-size: 1.5em; font-weight: bold;">
-                    <xsl:value-of select="tei:seg[@rend='initial']"/>
-                </span>
-                <xsl:value-of select="substring(., string-length(tei:seg[@rend='initial']) + 1)"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <span style="font-style: italic;">
-                    <xsl:apply-templates/>
-                </span>
-            </xsl:otherwise>
-        </xsl:choose>
+    <!-- Drop cap -->
+    <xsl:template match="tei:seg[@rend='initial']">
+
+        <span style="font-size: 1.5em; font-weight: bold;">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
 
     <xsl:template match="tei:persName">
@@ -106,6 +100,8 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+
+
 
     <xsl:template match="tei:head[@rend='bold']">
         <span style="font-weight: bold;">

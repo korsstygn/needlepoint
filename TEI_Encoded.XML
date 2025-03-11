@@ -35,11 +35,14 @@ This transcription follows TEI guidelines for encoding printed texts.  Punctuati
     </teiHeader>
     <text>
         <body id="container_broadsheet">
+        <div id="setting_area" type="columns">
+            <div type="column">
             <!-- the container for everything -->
             
                 <pb n="1"/>
                 <!-- Publication section, price and stuff -->
-                <div id="publ">
+                <div id="publ" type="columns">
+                <div type="column">
                     <p>
                         <lb />
                         <emph rend="bold">30p</emph>
@@ -56,19 +59,21 @@ and Manchester
                         <lb />
 The Guardian
                     </p>
-                </div>
+                </div></div>
                 <!-- the logo -->
-                <div type="masthead">
+                <div id="masthead" type="columns">
+                <div type="column">
                     <p>
                         <head type="masthead">
-                            <hi rend="MastItalics">The</hi>
-                            <hi rend="MastBold">Guardian</hi>
+                            <hi rend="italic">The</hi>
+                            <hi rend="bold">Guardian</hi>
                         </head>
                     </p>
-                </div>
+                </div></div>
 
                 <!-- Ticker section -->
-                <div id="ticker">
+                <div id="ticker" type="columns">
+                <div type="column">
                     <p>
                         <head type="main">
 East Germans sweep aside Iron Curtain
@@ -76,7 +81,7 @@ East Germans sweep aside Iron Curtain
 All border crossing points declared legal
                         </head>
                     </p>
-                </div>
+                </div></div>
                 <div id="Title">
                     <head type="Title">Communists open Berlin Wall</head>
                 </div>
@@ -402,7 +407,7 @@ ___________________________________8B192</item>
 <item>_____________________Postcode:____________</item>
 <item>Please return to: Greenpeace, FREEPOST, 30-31 Islington Green, London N1 8BR</item>
 </list></p>
-</div>
+</div></div></div>
 </body>
 </text>
 </TEI>
