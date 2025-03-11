@@ -35,130 +35,136 @@ This transcription follows TEI guidelines for encoding printed texts.  Punctuati
     </teiHeader>
     <text>
         <body id="container_broadsheet">
-        <div id="setting_area" type="columns">
-            <div type="column">
-            <!-- the container for everything -->
-            
-                <pb n="1"/>
-                <!-- Publication section, price and stuff -->
-                <div id="publ" type="columns">
+
+            <div id="setting_area" type="columns">
                 <div type="column">
-                    <p>
-                        <lb />
-                        <emph rend="bold">30p</emph>
-                        <lb />
+                    <!-- the container for everything -->
+
+                    <pb n="1"/>
+                    <!-- Publication section, price and stuff -->
+                    <div id="publ" class="setting_area" type="columns">
+                        <div type="column">
+                            <p>
+                                <lb />
+                                <emph rend="bold">30p</emph>
+                                <lb />
 Friday
-                        <lb />
+                                <lb />
 November   10
-                        <lb />
+                                <lb />
 1989
-                        <lb />
+                                <lb />
 Published in London
-                        <lb />
+                                <lb />
 and Manchester
-                        <lb />
+                                <lb />
 The Guardian
-                    </p>
-                </div></div>
-                <!-- the logo -->
-                <div id="masthead" type="columns">
-                <div type="column">
-                    <p>
-                        <head type="masthead">
-                            <hi rend="italic">The</hi>
-                            <hi rend="bold">Guardian</hi>
-                        </head>
-                    </p>
-                </div></div>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- the logo -->
+                    <div id="masthead" class="setting_area" type="columns">
+                        <div type="column" class="column">
+                            <p>
+                                <head type="masthead">
+                                    <hi rend="italic">The</hi>
+                                    <hi rend="bold">Guardian</hi>
+                                </head>
+                            </p>
+                        </div>
+                    </div>
 
-                <!-- Ticker section -->
-                <div id="ticker" type="columns">
-                <div type="column">
-                    <p>
-                        <head type="main">
+                    <!-- Ticker section -->
+                    <div id="ticker" class="setting_area" type="columns">
+                        <div type="column">
+                            <p>
+                                <head type="main">
 East Germans sweep aside Iron Curtain
-                            <glyph id="filledCircle" desc="A solid, filled circle used as a separator."/>
+                                    <glyph id="filledCircle" desc="A solid, filled circle used as a separator."/>
 All border crossing points declared legal
-                        </head>
-                    </p>
-                </div></div>
-                <div id="Title">
-                    <head type="Title">Communists open Berlin Wall</head>
-                </div>
+                                </head>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="Title">
+                        <head type="Title">Communists open Berlin Wall</head>
+                    </div>
 
-                <div id="Article_1">
-                    <p>
-                        <head type="sub">Exchanges jam in clamour of exit inquiries</head>
-                        <byline>
-                            <name>
-                                <forename>Anna</forename>
-                                <surname>Tomforde</surname>
-                            </name> in <placeName> East Berlin</placeName>
-                        </byline>
-                        <lb />
-                        <placeName>
-                            <seg rend="initial">E</seg>AST Germany's
-                        </placeName> ruling Communist Party last night took the momentous step of allowing all citizens direct passage to the West in a step that renders obsolete the Berlin Wall and puts into question the border between the two <placeName>Germanies</placeName>.
-                        <lb />
+                    <div id="Article_1" class="setting_area" type="columns">
+                                        <div id="Article_1" class="article_container" type="columns"></div>
+                        <div type="column" class="columns">
+                            <p>
+                                <head type="sub">Exchanges jam in clamour of exit inquiries</head>
+                                <byline>
+                                    <name>
+                                        <forename>Anna</forename>
+                                        <surname>Tomforde</surname>
+                                    </name> in <placeName> East Berlin</placeName>
+                                </byline>
+                                <lb />
+                                <placeName>
+                                    <seg rend="initial">E</seg>AST Germany's
+                                </placeName> ruling Communist Party last night took the momentous step of allowing all citizens direct passage to the West in a step that renders obsolete the Berlin Wall and puts into question the border between the two <placeName>Germanies</placeName>.
+                                <lb />
 					The extraordinary announcement represents the single most dramatic transformation of the political map of post-war <placeName>Europe</placeName>. It follows a tumultuous week during which the Communist authorities have vainly sought to stem a tide of popular opposition.
-                        <lb />
+                                <lb />
 					Within hours, East Germans on foot and in cars began arriving in <placeName>West Germany</placeName> and <placeName>West Berlin</placeName>. West German television said a couple crossed the <placeName>Bornholmer Strasse</placeName> checkpoint in <placeName>West Berlin</placeName> at 9.15 pm (8.15 GMT) with identity cards stamped with the new-style visas.
-                        <lb />
+                                <lb />
 					The decision was announced by Mr <persName>
-                        <forename>Guenter</forename>
-                        <surname>Schabowski</surname>
-                    </persName>, a politburo member, after the second day of a central committee meeting in <placeName>East Berlin</placeName>. He said it would come into effect immediately, and would last until new travel regulations were passed into law.
-                    <lb />
+                                <forename>Guenter</forename>
+                                <surname>Schabowski</surname>
+                            </persName>, a politburo member, after the second day of a central committee meeting in <placeName>East Berlin</placeName>. He said it would come into effect immediately, and would last until new travel regulations were passed into law.
+                            <lb />
 					Soon afterwards, the official <orgName>ADN</orgName> news agency said tens of thousands of people, many probably unaware of the new travel rules, took to the streets in several cities demanding free elections and liberalised travel.
-                    <lb />
+                            <lb />
 					When <placeName>East German</placeName> television carried the announcement, the station's switchboard was jammed almost instantly as thousands of callers tried to elicit more information.
-                    <lb />
+                            <lb />
 					It was also announced yesterday that <placeName>East Germany's</placeName> parliament will meet on Monday to elect a new Prime Minister, and charge him with forming a new government. The Communist Party has nominated the reformist, Mr <persName>
-                    <forename>Hans</forename>
-                    <surname>Modrow</surname>
-                </persName>, for the top job in the government, after the former administration under the hardliner, Mr <persName>
-                <forename>Willi</forename>
-                <surname>Stoph</surname>
-            </persName>, resigned on Tuesday, the day before the politburo stepped down to make way for a new team.
-            <lb />
+                            <forename>Hans</forename>
+                            <surname>Modrow</surname>
+                        </persName>, for the top job in the government, after the former administration under the hardliner, Mr <persName>
+                        <forename>Willi</forename>
+                        <surname>Stoph</surname>
+                    </persName>, resigned on Tuesday, the day before the politburo stepped down to make way for a new team.
+                    <lb />
 					East Germans will be able to obtain exit visas without delay, allowing them to cross into the West through all border points within <placeName>Berlin</placeName> and along the border with <placeName>West Germany</placeName>. Tourists who want to return to <placeName>East Germany</placeName> can also obtain immediate permission. Because of the exceptional nature of the decision, passports will not be needed. “We have decided today that all East Germans who want to leave permanently can do so without delay.”
-            <lb />
+                    <lb />
 					The two days of hectic change in <placeName>East Berlin</placeName> received the public blessing yesterday of the Soviet foreign ministry spokesman, Mr <persName>
-            <forename>Gennady</forename>
-            <surname>Gerasimov</surname>
-        </persName>, who said: “These changes are for the better, that is for sure.”
-        <lb />
+                    <forename>Gennady</forename>
+                    <surname>Gerasimov</surname>
+                </persName>, who said: “These changes are for the better, that is for sure.”
+                <lb />
 					He hinted that the <placeName>Soviet Union</placeName> would be prepared to accept a non-Communist government in <placeName>East Germany</placeName>. 'It's
-        <cb />
-					their (<placeName>East Germany's</placeName>) decision, just like in <placeName>Poland</placeName> ...        <placeName>Poland</placeName> is a good member of the <orgName>Warsaw Pact</orgName>, and in <placeName>Poland</placeName> you have a coalition, you don't have Communist government in <placeName>Poland</placeName>.”
-        <lb />
+                <cb />
+					their (<placeName>East Germany's</placeName>) decision, just like in <placeName>Poland</placeName> ...                <placeName>Poland</placeName> is a good member of the <orgName>Warsaw Pact</orgName>, and in <placeName>Poland</placeName> you have a coalition, you don't have Communist government in <placeName>Poland</placeName>.”
+                <lb />
 					The numbers fleeing <placeName>East Germany</placeName> this year have now topped 200,000. Since last Friday alone, more than 50,000 have left. Yesterday's move has unpredictable consequences, but was clearly taken in the hope that the exodus could be slowed by giving people the opportunity of travelling or leaving whenever they wished.
-        <lb />
+                <lb />
 					In a further concession to popular pressure, the Communist Party called a special party conference which could result in leadership purges.
-        <lb />
+                <lb />
 					Both announcements came after a turbulent session of the party's central committee at which members demanded “punishment” of those responsible for the political and economic crisis, and urged that no time must be lost in moving ahead on the path of renewal.
-        <lb />
+                <lb />
 					The decision comes against a background of a crippling labour shortage, caused by the exodus. Soldiers and members of the secret police, the <orgName>Stasi</orgName>, have been called in to help at hospitals, the public services, and public transport.
-        <lb />
+                <lb />
 					Meanwhile, <placeName>East Germany's</placeName> biggest independent opposition group said it had been granted initial recognition as a political movement by the Interior Ministry. <orgName>New Forum</orgName> has been given three months to present a platform, and will then be able to contest elections as a “movement” rather than a political party. Mr <persName>
-        <forename>Michael</forename>
-        <surname>Goebel</surname>
-    </persName>, a member, said <orgName>New Forum</orgName> now had 200,000 supporters.
-    <lb />
+                <forename>Michael</forename>
+                <surname>Goebel</surname>
+            </persName>, a member, said <orgName>New Forum</orgName> now had 200,000 supporters.
+            <lb />
 					The special party conference will be held from December 15 to 17. Its representatives have the power to elect and sack members of the present central committee. “The party conference could well demonstrate who are the reformers and who are the hardliners in the central committee,” one observer said.
+            <lb />
+					Mr <persName>
+            <surname>Schabowski</surname>
+        </persName> told reporters that yesterday's session had been “lively”. It concentrated on determining the reasons for the crisis and on finding answers to <placeName>East Germany's</placeName> variety of “perestroika”.
+        <lb />
+					Direct criticism had been levelled at the hardline leadership of Mr <persName>
+        <forename>Erich</forename>
+        <surname>Honecker</surname>
+    </persName> and others, who had failed to recognise the relevance for <placeName>East Germany</placeName> of the reform process in the <placeName>Soviet Union</placeName>.
     <lb />
 					Mr <persName>
-    <surname>Schabowski</surname>
-</persName> told reporters that yesterday's session had been “lively”. It concentrated on determining the reasons for the crisis and on finding answers to <placeName>East Germany's</placeName> variety of “perestroika”.
-<lb />
-					Direct criticism had been levelled at the hardline leadership of Mr <persName>
-<forename>Erich</forename>
-<surname>Honecker</surname>
-</persName> and others, who had failed to recognise the relevance for <placeName>East Germany</placeName> of the reform process in the <placeName>Soviet Union</placeName>.
-<lb />
-					Mr <persName>
-<forename>Hans</forename>
-<surname>Modrow</surname>
+    <forename>Hans</forename>
+    <surname>Modrow</surname>
 </persName>, the reform-minded party chief of <placeName>Dresden</placeName> and a new politburo member, spoke of “bitterness” within the party about the grave mistakes of the past.
 <lb />
 					The very existence of the party was now at stake, Mr <persName>
@@ -172,6 +178,7 @@ All border crossing points declared legal
 <lb />
 					Without Wall, <ref target="#page23">page 23</ref>
 </p>
+</div>
 </div>
 
 <div id="photo">
@@ -322,8 +329,10 @@ He said many could turn up as early as this morning, with or without the necessa
 </persName>, plans to grant right of abode to up to 200,000 “important” <placeName>Hong Kong</placeName> citizens, according to a <placeName>Hong Kong</placeName> newspaper report.  <ref target="#page13">Page 13</ref>
 
 
-………………………………………………</div>
-<div type="inside"><p>
+………………………………………………
+</div>
+<div type="inside">
+<p>
 <head>Inside</head>
 <list rend="plain">
 <item n="Arts, Reviews">37</item>
@@ -340,8 +349,11 @@ He said many could turn up as early as this morning, with or without the necessa
 <item n="Science">29</item>
 <item n="Sports News">19-21</item>
 <item n="TV, Radio and Weather">40</item>
-</list></p>
-</div><div><p>
+</list>
+</p>
+</div>
+<div>
+<p>
 <head type="Secondary">Nuclear reactors scrapped</head>
 <byline>Alan Travis and Patrick Donovan</byline>
 <lb/>
@@ -372,7 +384,8 @@ Labour’s energy spokesman, Mr Frank Dobson, last night described the announcem
 <lb/>
 Reports, page 2; Leader Comment, page 22</p>
 </div>
-<div type="advertisement"><p>
+<div type="advertisement">
+<p>
 <head>GREENPEACE</head>
 <head>THE GREENHOUSE<lb/>
 EFFECT</head>
@@ -406,8 +419,11 @@ _____________________________<lb/>
 ___________________________________8B192</item>
 <item>_____________________Postcode:____________</item>
 <item>Please return to: Greenpeace, FREEPOST, 30-31 Islington Green, London N1 8BR</item>
-</list></p>
-</div></div></div>
+</list>
+</p>
+</div>
+</div>
+</div>
 </body>
 </text>
 </TEI>

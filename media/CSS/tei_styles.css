@@ -13,11 +13,11 @@ teiHeader {
 
 /* General styles for the body */
 body {
-    font-family: 'Inter', sans-serif; /* Sets the font family to Inter */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    font-size: 0.85em; /* Sets the base font size */
-    line-height: 1em; /* Sets the line height */
+    font-family:'Times New Roman', Times, serif; /* Sets the font family to Inter */
+    margin: 5% 7.5% 5% 5%; /* Removes default margin */
+    font-size: 1em; /* Sets the base font size */
+    line-height: 1.2em; /* Sets the line height */
+    background-color: #FAFAFA;
 }
 
 /* Custom styles for MastItalics and MastBold */
@@ -71,4 +71,13 @@ body {
 
 .ticker {
     grid-column: span 8; /* Takes up 8 out of 8 columns */
+}
+
+.Title {
+    grid-column: span 8; /* Takes up 8 out of 8 columns */
+
+}
+
+.Article_1 {
+    grid-column: span 2; /* Takes up 8 out of 8 columns */
 }
