@@ -46,19 +46,20 @@ This transcription follows TEI guidelines for encoding printed texts.  Punctuati
                         <div type="column">
                             <p>
                                 <lb />
-                                <emph rend="bold">30p</emph>
+                                <emph rend="bold"><measure type=“currency” quantity=“30” unit=“p”></measure>30p</measure></emph>
                                 <lb />
-Friday
+<date when=“1989-11-10”><date>Friday
                                 <lb />
 November   10
                                 <lb />
-1989
+1989</date>
                                 <lb />
-Published in London
+Published in <placeName> <settlement type=“city”>London</placeName>
                                 <lb />
-and Manchester
+and <placeName> <settlement type=“city”> Manchester</placeName>
                                 <lb />
-The Guardian
+<orgName type=“media”>The Guardian</orgName>
+
                             </p>
                         </div>
                     </div>
@@ -79,7 +80,7 @@ The Guardian
                         <div type="column">
                             <p>
                                 <head type="main">
-East Germans sweep aside Iron Curtain
+<nationality>East Germans</nationality> sweep aside <objectName>Iron Curtain</objectName>
                                     <glyph id="filledCircle" desc="A solid, filled circle used as a separator."/>
 All border crossing points declared legal
                                 </head>
@@ -87,7 +88,8 @@ All border crossing points declared legal
                         </div>
                     </div>
                     <div id="Title">
-                        <head type="Title">Communists open Berlin Wall</head>
+                        <head type="Title">Communists open <objectName>Berlin Wall</objectName>
+</head>
                     </div>
 
                     <div id="Article_1" class="setting_area" type="columns">
@@ -96,26 +98,20 @@ All border crossing points declared legal
                             <p>
                                 <head type="sub">Exchanges jam in clamour of exit inquiries</head>
                                 <byline>
-                                    <name>
-                                        <forename>Anna</forename>
-                                        <surname>Tomforde</surname>
-                                    </name> in <placeName> East Berlin</placeName>
+                                    <persName role=“journalist”> <forename>Anna</forename> <surname>Tomforde</surname> in <placeName><settlement type=“city> East Berlin</placeName>
                                 </byline>
                                 <lb />
-                                <placeName>
+                                <placeName> <settlement type=“city”>
                                     <seg rend="initial">E</seg>AST Germany's
-                                </placeName> ruling Communist Party last night took the momentous step of allowing all citizens direct passage to the West in a step that renders obsolete the Berlin Wall and puts into question the border between the two <placeName>Germanies</placeName>.
+                                </placeName> ruling <orgName type=“politicaParty”>Communist Party</orgName> last night took the momentous step of allowing all citizens direct passage to the West in a step that renders obsolete the <objectName>Berlin Wall</objectname> and puts into question the border between the two <placeName><settlement type=“country”>Germanies</placeName>.
                                 <lb />
-					The extraordinary announcement represents the single most dramatic transformation of the political map of post-war <placeName>Europe</placeName>. It follows a tumultuous week during which the Communist authorities have vainly sought to stem a tide of popular opposition.
+					The extraordinary announcement represents the single most dramatic transformation of the political map of post-war <placeName><settlement type=“bloc”>Europe</placeName>. It follows a tumultuous week during which the Communist authorities have vainly sought to stem a tide of popular opposition.
                                 <lb />
-					Within hours, East Germans on foot and in cars began arriving in <placeName>West Germany</placeName> and <placeName>West Berlin</placeName>. West German television said a couple crossed the <placeName>Bornholmer Strasse</placeName> checkpoint in <placeName>West Berlin</placeName> at 9.15 pm (8.15 GMT) with identity cards stamped with the new-style visas.
+					Within hours, <nationality>East Germans</nationality> on foot and in cars began arriving in <placeName><settlement type=“country”>West Germany</placeName> and <placeName><settlement type=“city”>West Berlin</placeName>. <nationality>West German</nationality> television said a couple crossed the <placeName type=“street”>Bornholmer Strasse</placeName> checkpoint in <placeName><settlement type=“city”>West Berlin</placeName> at <time when=“09:15:00”>9.15 pm (8.15 GMT)</time> with identity cards stamped with the new-style visas.
                                 <lb />
-					The decision was announced by Mr <persName>
-                                <forename>Guenter</forename>
-                                <surname>Schabowski</surname>
-                            </persName>, a politburo member, after the second day of a central committee meeting in <placeName>East Berlin</placeName>. He said it would come into effect immediately, and would last until new travel regulations were passed into law.
+					The decision was announced by <persName role=“honorific”>Mr <forename>Guenter</forename> <surname>Schabowski</surname>, a politburo member, after the second day of a central committee meeting in<placeName><settlement type=“city”>East Berlin</placeName>. He said it would come into effect immediately, and would last until new travel regulations were passed into law.
                             <lb />
-					Soon afterwards, the official <orgName>ADN</orgName> news agency said tens of thousands of people, many probably unaware of the new travel rules, took to the streets in several cities demanding free elections and liberalised travel.
+					Soon afterwards, the official <orgName><orgTitle type=“acronym” reg=“Allgemeiner Deutscher Nachrichtendienst”>ADN</orgTitle></orgName> news agency said tens of thousands of people, many probably unaware of the new travel rules, took to the streets in several cities demanding free elections and liberalised travel.
                             <lb />
 					When <placeName>East German</placeName> television carried the announcement, the station's switchboard was jammed almost instantly as thousands of callers tried to elicit more information.
                             <lb />
@@ -205,7 +201,7 @@ MPs immediately abandoned routine business and began an emergency debate in the 
 But the implications of such an exodus chastened the <orgName>Bundestag</orgName>. Mr <persName>
 <forename>Wolfgang</forename>
 <surname>Mischnik</surname>
-</persName>, floor leader of the Liberal Free Democrats in Chancellor <persName>
+</persName>, floor leader of the Liberal Free Democrats in <persName><roleName type="office">Chancellor</roleName> <persName>
 <forename>Helmut</forename>
 <surname>Kohl’s</surname>
 </persName> coalition government, wound up the session with a plea: “For those who are still undecided, I beseech you, stay at home!”
@@ -221,7 +217,7 @@ Nonetheless, in <placeName>West Berlin</placeName>, local politicians and reside
 <lb/>
 Dr <persName>
 <surname>Kohl</surname>
-</persName>, in <placeName>Warsaw</placeName> at the start of a five-day visit, reacted to the news by calling for talks with <placeName>East Germany’s</placeName> President <persName>
+</persName>, in <placeName>Warsaw</placeName> at the start of a five-day visit, reacted to the news by calling for talks with <placeName>East Germany’s</placeName>  <persName><roleName type="office">President</roleName>
 <forename>Egon</forename>
 <surname>Krenz</surname>
 </persName>.
@@ -317,8 +313,8 @@ He said many could turn up as early as this morning, with or without the necessa
 </persName>’s claims that a criminal conspiracy has caused contamination of British milk have been treated with scepticism by European Community officials.  <ref target="#page4">Page 4</ref>
 <lb/>
 <head rend="bold">Deng gives up control</head> China’s supreme leader, Mr <persName>
-<forename>Deng</forename>
-<surname>Xiaoping</surname>
+<surname>Deng</surname>
+<forename>Xiaoping</forename>
 </persName>, has resigned his last post, leaving power in the hands of headliners. <ref target="#page24">Page 24</ref>
 <lb/>
 <head rend="bold">Jet crashes into flats</head> A <placeName>US</placeName> navy jet crashed into an apartment block in <placeName>Atlanta</placeName>,<placeName>Georgia</placeName>, last night, killing at least one person and injuring several others, including the pilot who baled out.
