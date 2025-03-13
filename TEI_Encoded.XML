@@ -46,19 +46,19 @@ This transcription follows TEI guidelines for encoding printed texts.  Punctuati
                         <div type="column">
                             <p>
                                 <lb />
-                                <emph rend="bold"><measure type=“currency” quantity=“30” unit=“p”></measure>30p</measure></emph>
+                                <emph rend="bold"><measure type="currency" quantity="30" unit="p"></measure>30p</measure></emph>
                                 <lb />
-<date when=“1989-11-10”><date>Friday
+<date when="1989-11-10"><date>Friday
                                 <lb />
 November   10
                                 <lb />
 1989</date>
                                 <lb />
-Published in <placeName> <settlement type=“city”>London</placeName>
+Published in <placeName> <settlement type="city">London</placeName>
                                 <lb />
-and <placeName> <settlement type=“city”> Manchester</placeName>
+and <placeName> <settlement type="city"> Manchester</placeName>
                                 <lb />
-<orgName type=“media”>The Guardian</orgName>
+<orgName type="media">The Guardian</orgName>
 
                             </p>
                         </div>
@@ -98,20 +98,20 @@ All border crossing points declared legal
                             <p>
                                 <head type="sub">Exchanges jam in clamour of exit inquiries</head>
                                 <byline>
-                                    <persName role=“journalist”> <forename>Anna</forename> <surname>Tomforde</surname> in <placeName><settlement type=“city> East Berlin</placeName>
+                                    <persName role="journalist"> <forename>Anna</forename> <surname>Tomforde</surname> in <placeName><settlement type="city"> East Berlin</placeName>
                                 </byline>
                                 <lb />
-                                <placeName> <settlement type=“city”>
+                                <placeName> <settlement type="city">
                                     <seg rend="initial">E</seg>AST Germany's
-                                </placeName> ruling <orgName type=“politicaParty”>Communist Party</orgName> last night took the momentous step of allowing all citizens direct passage to the West in a step that renders obsolete the <objectName>Berlin Wall</objectname> and puts into question the border between the two <placeName><settlement type=“country”>Germanies</placeName>.
+                                </placeName> ruling <orgName type="politicaParty">Communist Party</orgName> last night took the momentous step of allowing all citizens direct passage to the West in a step that renders obsolete the <objectName>Berlin Wall</objectname> and puts into question the border between the two <placeName><settlement type="country">Germanies</placeName>.
                                 <lb />
-					The extraordinary announcement represents the single most dramatic transformation of the political map of post-war <placeName><settlement type=“bloc”>Europe</placeName>. It follows a tumultuous week during which the Communist authorities have vainly sought to stem a tide of popular opposition.
+					The extraordinary announcement represents the single most dramatic transformation of the political map of post-war <placeName><settlement type="bloc">Europe</placeName>. It follows a tumultuous week during which the Communist authorities have vainly sought to stem a tide of popular opposition.
                                 <lb />
-					Within hours, <nationality>East Germans</nationality> on foot and in cars began arriving in <placeName><settlement type=“country”>West Germany</placeName> and <placeName><settlement type=“city”>West Berlin</placeName>. <nationality>West German</nationality> television said a couple crossed the <placeName type=“street”>Bornholmer Strasse</placeName> checkpoint in <placeName><settlement type=“city”>West Berlin</placeName> at <time when=“09:15:00”>9.15 pm (8.15 GMT)</time> with identity cards stamped with the new-style visas.
+					Within hours, <nationality>East Germans</nationality> on foot and in cars began arriving in <placeName><settlement type="country">West Germany</placeName> and <placeName><settlement type="city">West Berlin</placeName>. <nationality>West German</nationality> television said a couple crossed the <placeName type="street">Bornholmer Strasse</placeName> checkpoint in <placeName><settlement type="city">West Berlin</placeName> at <time when="09:15:00">9.15 pm (8.15 GMT)</time> with identity cards stamped with the new-style visas.
                                 <lb />
-					The decision was announced by <persName role=“honorific”>Mr <forename>Guenter</forename> <surname>Schabowski</surname>, a politburo member, after the second day of a central committee meeting in<placeName><settlement type=“city”>East Berlin</placeName>. He said it would come into effect immediately, and would last until new travel regulations were passed into law.
+					The decision was announced by <persName role="honorific">Mr <forename>Guenter</forename> <surname>Schabowski</surname>, a politburo member, after the second day of a central committee meeting in<placeName><settlement type="city">East Berlin</placeName>. He said it would come into effect immediately, and would last until new travel regulations were passed into law.
                             <lb />
-					Soon afterwards, the official <orgName><orgTitle type=“acronym” reg=“Allgemeiner Deutscher Nachrichtendienst”>ADN</orgTitle></orgName> news agency said tens of thousands of people, many probably unaware of the new travel rules, took to the streets in several cities demanding free elections and liberalised travel.
+					Soon afterwards, the official <orgName><orgTitle type="acronym" reg="Allgemeiner Deutscher Nachrichtendienst">ADN</orgTitle></orgName> news agency said tens of thousands of people, many probably unaware of the new travel rules, took to the streets in several cities demanding free elections and liberalised travel.
                             <lb />
 					When <placeName>East German</placeName> television carried the announcement, the station's switchboard was jammed almost instantly as thousands of callers tried to elicit more information.
                             <lb />
