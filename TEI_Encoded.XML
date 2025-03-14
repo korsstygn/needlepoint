@@ -98,7 +98,7 @@ All border crossing points declared legal
                             <p>
                                 <head type="sub">Exchanges jam in clamour of exit inquiries</head>
                                 <byline>
-                                    <persName role="journalist"> <forename>Anna</forename> <surname>Tomforde</surname></persName> in <placeName><settlement type="city"> East Berlin</settlement></placeName>
+                                    <persName><forename>Anna</forename><surname>Tomforde</surname></persName> in <placeName><settlement type="city"> East Berlin</settlement></placeName>
                                 </byline>
                                 <lb />
                                 <placeName> <settlement type="country">
@@ -184,7 +184,7 @@ All border crossing points declared legal
 <head>Gateway to freedom…The <objectName>Brandenburg Gate</objectName>, until now a symbol of a divided <placeName><settlement type="city">Berlin</settlement></placeName></head>
 <figDesc>Photograph of the Brandenburg Gate in Berlin.</figDesc>
 <lb/>
-PHOTOGRAPH: <persName role="photojournalist">
+PHOTOGRAPH: <persName>
 <forename>MARTIN</forename>
 <surname>ARGLES</surname>
 </persName>
