@@ -54,9 +54,9 @@ November   10
                                 <lb />
 1989</date>
                                 <lb />
-Published in <placeName> <settlement type="city">London</settlement></placeName>
+Published in <placeName><settlement type="city">London</settlement></placeName>
                                 <lb />
-and <placeName> <settlement type="city"> Manchester</settlement></placeName>
+and <placeName><settlement type="city"> Manchester</settlement></placeName>
                                 <lb />
 <orgName type="media">The Guardian</orgName>
 
@@ -101,14 +101,14 @@ All border crossing points declared legal
                                     <persName><forename>Anna</forename><surname>Tomforde</surname></persName> in <placeName><settlement type="city"> East Berlin</settlement></placeName>
                                 </byline>
                                 <lb />
-                                <placeName> <country>
-                                    <seg rend="initial">E</seg>AST Germany's</country>
+                                <placeName> <country type="nation">
+                                    <seg rend="initial">E</seg>AST Germany</country>'s
                                 
-                                </placeName> ruling <orgName type="politicaParty">Communist Party</orgName> last night took the momentous step of allowing all citizens direct passage to the West in a step that renders obsolete the <objectName>Berlin Wall</objectname> and puts into question the border between the two <placeName><country>Germanies</country></placeName>.
+                                </placeName> ruling <orgName type="politicaParty">Communist Party</orgName> <date when="1989-11-09">last night</date> took the momentous step of allowing all citizens direct passage to the <placeName><bloc>West</bloc></placeName> in a step that renders obsolete the <objectName>Berlin Wall</objectname> and puts into question the border between the two <placeName><country type="nation">Germanies</country></placeName>.
                                 <lb />
-					The extraordinary announcement represents the single most dramatic transformation of the political map of post-war <placeName><settlement type="bloc">Europe</settlement></placeName>. It follows a tumultuous week during which the Communist authorities have vainly sought to stem a tide of popular opposition.
+					The extraordinary announcement represents the single most dramatic transformation of the political map of post-war <placeName><bloc>Europe</bloc></placeName>. It follows a <date from="1989-11-02" to="1989-11-09">tumultuous week</date> during which the Communist authorities have vainly sought to stem a tide of popular opposition.
                                 <lb />
-					Within hours, <nationality>East Germans</nationality> on foot and in cars began arriving in <placeName><country>West Germany</country></placeName> and <placeName><settlement type="city">West Berlin</settlement></placeName>. <nationality>West German</nationality> television said a couple crossed the <placeName type="street">Bornholmer Strasse</placeName> checkpoint in <placeName><settlement type="city">West Berlin</settlement></placeName> at <time when="09:15:00">9.15 pm (8.15 GMT)</time> with identity cards stamped with the new-style visas.
+					Within hours, <nationality>East Germans</nationality> on foot and in cars began arriving in <placeName><country type="nation">West Germany</country></placeName> and <placeName><settlement type="city">West Berlin</settlement></placeName>. <nationality>West German</nationality> television said a couple crossed the <placeName type="street">Bornholmer Strasse</placeName> checkpoint in <placeName><settlement type="city">West Berlin</settlement></placeName> at <time when="09:15:00">9.15 pm (8.15 GMT)</time> with identity cards stamped with the new-style visas.
                                 <lb />
 					The decision was announced by <persName><roleName type="honorific" full="abb">Mr</roleName> <forename>Guenter</forename> <surname>Schabowski</surname></persName>, a politburo member, after the second day of a central committee meeting in<placeName><settlement type="city">East Berlin</settlement></placeName>. He said it would come into effect immediately, and would last until new travel regulations were passed into law.
                             <lb />
@@ -116,64 +116,64 @@ All border crossing points declared legal
                             <lb />
 					When <nationality>East German</nationality> television carried the announcement, the station's switchboard was jammed almost instantly as thousands of callers tried to elicit more information.
                             <lb />
-					It was also announced yesterday that <placeName><country>East Germany</country></placeName>'s parliament will meet on Monday to elect a new Prime Minister, and charge him with forming a new government. The <orgName type="politicaParty">Communist Party</orgName> has nominated the reformist, <persName><roleName type="honorific" full="abb">Mr</roleName>
+					It was also announced <date when="1989-11-09">yesterday</date> that <placeName><country type="nation">East Germany</country></placeName>'s parliament will meet on <date when="1989-11'13">Monday</date> to elect a new Prime Minister, and charge him with forming a new government. The <orgName type="politicaParty">Communist Party</orgName> has nominated the reformist, <persName><roleName type="honorific" full="abb">Mr</roleName>
                             <forename>Hans</forename>
                             <surname>Modrow</surname>
                         </persName>, for the top job in the government, after the former administration under the hardliner, <persName><roleName type="honorific" full="abb">Mr</roleName>
                         <forename>Willi</forename>
                         <surname>Stoph</surname>
-                    </persName>, resigned on <date when="1989-11-07">Tuesday,</date> the day before the politburo stepped down to make way for a new team.
+                    </persName>, resigned on <date when="1989-11-07">Tuesday</date>, the day before the politburo stepped down to make way for a new team.
                     <lb />
-					<nationality>East Germans</nationality> will be able to obtain exit visas without delay, allowing them to cross into the West through all border points within <placeName><settlement type="city">Berlin</settlement></placeName> and along the border with <placeName><country>West Germany</country></placeName>. Tourists who want to return to <placeName><country>East Germany</country></placeName> can also obtain immediate permission. Because of the exceptional nature of the decision, passports will not be needed. <quote>“We have decided today that all <nationality>East Germans</nationality> who want to leave permanently can do so without delay.”</quote>
+					<nationality>East Germans</nationality> will be able to obtain exit visas without delay, allowing them to cross into the <placeName><bloc>West</bloc></placeName> through all border points within <placeName><settlement type="city">Berlin</settlement></placeName> and along the border with <placeName><country type="nation">West Germany</country></placeName>. Tourists who want to return to <placeName><country type="nation">East Germany</country></placeName> can also obtain immediate permission. Because of the exceptional nature of the decision, passports will not be needed. <quote>“We have decided today that all <nationality>East Germans</nationality> who want to leave permanently can do so without delay.”</quote>
                     <lb />
 					The two days of hectic change in <placeName><settlement type="city">East Berlin</settlement></placeName> received the public blessing <date when="1989-11-09">yesterday</date> of the <orgName type="phrase">Soviet foreign ministry<</orgName> spokesman, <persName><roleName type="honorific" full="abb">Mr</roleName>
                     <forename>Gennady</forename>
                     <surname>Gerasimov</surname>
                 </persName>, who said: <quote>“These changes are for the better, that is for sure.”</quote>
                 <lb />
-					He hinted that the <placeName><bloc>Soviet Union</bloc></placeName> would be prepared to accept a non-Communist government in <placeName><country>East Germany</country></placeName>. <quote></quote>"It's
+					He hinted that the <placeName><bloc>Soviet Union</bloc></placeName> would be prepared to accept a non-Communist government in <placeName><country type="nation">East Germany</country></placeName>. <quote>"It's
                 <cb />
-					their (<placeName><country>East Germany</country></placeName>'s) decision, just like in <placeName><country>Poland</country></placeName> ...                <placeName><country>Poland</country></placeName> is a good member of the <orgName type="regional">Warsaw Pact</orgName>, and in <placeName><country>Poland</country></placeName> you have a coalition, you don't have Communist government in <placeName><country>Poland</country></placeName>.”</quote>
+					their (<placeName><country type="nation">East Germany</country></placeName>'s) decision, just like in <placeName><country type="nation">Poland</country></placeName> ... <placeName><country type="nation">Poland</country></placeName> is a good member of the <orgName type="regional">Warsaw Pact</orgName>, and in <placeName><country type="nation">Poland</country></placeName> you have a coalition, you don't have Communist government in <placeName><country type="nation">Poland</country></placeName>.”</quote>
                 <lb />
-					The numbers fleeing <placeName><country>East Germany</country></placeName> this year have now topped 200,000. Since <date when="1989-11-03">last Friday</date> alone, more than 50,000 have left. <date when="1989-11-09">Yesterday's</date> move has unpredictable consequences, but was clearly taken in the hope that the exodus could be slowed by giving people the opportunity of travelling or leaving whenever they wished.
+					The numbers fleeing <placeName><country type="nation">East Germany</country></placeName> this year have now topped 200,000. Since <date when="1989-11-03">last Friday</date> alone, more than 50,000 have left. <date when="1989-11-09">Yesterday's</date> move has unpredictable consequences, but was clearly taken in the hope that the exodus could be slowed by giving people the opportunity of travelling or leaving whenever they wished.
                 <lb />
 					In a further concession to popular pressure, the <orgName type="politicalParty">Communist Party</orgName> called a special party conference which could result in leadership purges.
                 <lb />
-					Both announcements came after a turbulent session of the party's central committee at which members demanded “punishment” of those responsible for the political and economic crisis, and urged that no time must be lost in moving ahead on the path of renewal.
+					Both announcements came after a turbulent session of the <orgName type="politicalParty">party</orgName> central committee at which members demanded “punishment” of those responsible for the political and economic crisis, and urged that no time must be lost in moving ahead on the path of renewal.
                 <lb />
 					The decision comes against a background of a crippling labour shortage, caused by the exodus. Soldiers and members of the secret police, the <orgName>Stasi</orgName>, have been called in to help at hospitals, the public services, and public transport.
                 <lb />
-					Meanwhile, <placeName><country>East Germany</country></placeName>'s biggest independent opposition group said it had been granted initial recognition as a political movement by the <orgName type="phrase">Interior Ministry.</orgName> <orgName type="politicalMovement">New Forum</orgName> has been given three months to present a platform, and will then be able to contest elections as a “movement” rather than a political party. <persName><roleName type="honorific" full="abb"> Mr</roleName>
+					Meanwhile, <placeName><country type="nation">East Germany</country></placeName>'s biggest independent opposition group said it had been granted initial recognition as a political movement by the <orgName type="phrase">Interior Ministry</orgName>. <orgName type="politicalMovement">New Forum</orgName> has been given three months to present a platform, and will then be able to contest elections as a “movement” rather than a political party. <persName><roleName type="honorific" full="abb"> Mr</roleName>
                 <forename>Michael</forename>
                 <surname>Goebel</surname>
             </persName>, a member, said <orgName type="politicalMovement">New Forum</orgName> now had 200,000 supporters.
             <lb />
-					The special party conference will be held from <date from="1989-12-15" to="1989-12-17">December 15 to 17</date>. Its representatives have the power to elect and sack members of the present central committee. “The party conference could well demonstrate who are the reformers and who are the hardliners in the central committee,” one observer said.
+					The special <orgName type="politicalParty">party</orgName> conference will be held from <date from="1989-12-15" to="1989-12-17">December 15 to 17</date>. Its representatives have the power to elect and sack members of the present central committee. <quote> “The party conference could well demonstrate who are the reformers and who are the hardliners in the central committee,”</quote> one observer said.
             <lb />
 					<persName><roleName type="honorific" full="abb"> Mr</roleName>
             <surname>Schabowski</surname>
-        </persName> told reporters that yesterday's session had been “lively”. It concentrated on determining the reasons for the crisis and on finding answers to <placeName><country>East Germany</country></placeName>'s variety of “perestroika”.
+        </persName> told reporters that <date when="1989-11-09">yesterday</date>'s session had been <quote>“lively”</quote>. It concentrated on determining the reasons for the crisis and on finding answers to <placeName><country type="nation">East Germany</country></placeName>'s variety of “perestroika”.
         <lb />
 					Direct criticism had been levelled at the hardline leadership of <persName><roleName type="honorific" full="abb"> Mr</roleName>
         <forename>Erich</forename>
         <surname>Honecker</surname>
-    </persName> and others, who had failed to recognise the relevance for <placeName><country>East Germany</country></placeName> of the reform process in the <placeName><settlement type="bloc">Soviet Union</settlement></placeName>.
+    </persName> and others, who had failed to recognise the relevance for <placeName><country type="nation">East Germany</country></placeName> of the reform process in the <placeName><bloc>Soviet Union</bloc></placeName>.
     <lb />
 					<persName><roleName type="honorific" full="abb">Mr</roleName>
     <forename>Hans</forename>
     <surname>Modrow</surname>
-</persName>, the reform-minded party chief of <placeName><settlement type="city">Dresden</settlement></placeName> and a new politburo member, spoke of “bitterness” within the party about the grave mistakes of the past.
+</persName>, the reform-minded party chief of <placeName><settlement type="city">Dresden</settlement></placeName> and a new politburo member, spoke of <quote>“bitterness”</quote> within the party about the grave mistakes of the past.
 <lb />
 					The very existence of the party was now at stake, <persName><roleName type="honorific" full="abb"> Mr</roleName>
 <surname>Modrow</surname>
-</persName> told the central committee, and any further “dithering” would only increase pressure on the leadership. “Despite the seriousness of the situation, socialism still has a chance in the <placeName><placeTitle type="acronym" reg="German Democratic Republic"><country>GDR</placeTitle></country></placeName>,” he said.
+</persName> told the central committee, and any further <quote>“dithering”</quote> would only increase pressure on the leadership. <quote>“Despite the seriousness of the situation, socialism still has a chance in the <placeName><country type="nation"><placeTitle type="acronym" reg="German Democratic Republic">GDR</placeTitle></country></placeName>,”</quote> he said.
 <lb />
 <hr />
 <ref target="#page10"><nationality>East German</nationality> crisis, page 10;</ref>
 <lb />
 <ref target="#page16"><placeName><settlement type="district">City</settlement></placeName>Notebook, page 16;</ref> Future
 <lb />
-					Without Wall, <ref target="#page23">page 23</ref>
+					Without <objectName>Wall</objectName>, <ref target="#page23">page 23</ref>
 </p>
 </div>
 </div>
@@ -191,11 +191,11 @@ PHOTOGRAPH: <persName>
 </figure>
 </div>
 <div id="Article_2">
-<head type="main">West awaiting 1.4 million migrants</head>
+<head type="main"><placeName><bloc>West</bloc>></placeName> awaiting 1.4 million migrants</head>
 <byline>Foreign Staff</byline>
 <lb/>
-MEMBERS of <placeName>West Germany’s</placeName>
-<orgName>Bundestag</orgName> burst into a rousing rendition of <hi rend="italic">Deutschland Uber Alles</hi> when word of the <nationality>East German</nationality> decision to allow its citizens to travel freely to the West was passed around the chamber.
+MEMBERS of <placeName><country type="nation">West Germany</country></placeName>'s
+<orgName>Bundestag</orgName> burst into a rousing rendition of <title rend="italic">Deutschland Uber Alles</title> when word of the <nationality>East German</nationality> decision to allow its citizens to travel freely to the <placeName><bloc>West</bloc></placeName> was passed around the chamber.
 <lb/>
 MPs immediately abandoned routine business and began an emergency debate in the expectation that up to 1.4 million East Germans who had applied to emigrate before last night’s dramatic announcement could begin moving West.
 <lb/>
@@ -254,21 +254,21 @@ During an informal session with reporters, he stressed the <placeName>US</placeN
 </name> and Agencies in <placeName><settlement type="city">East Berlin</settlement></placeName>
 </byline>
 <lb/>
-<seg rend="initial">H</seg>UNDREDS of youths <date when="1989-11-09"></date>>last night clambered up to dance atop the <objectName>Berlin Wall</objectname> near the most potent symbol of the divided <placeName><country>Germanies</country></placeName>, the <objectname> Brandenburg Gate </objectname>. <nationality>West Germans</nationality>, carrying hammers to chip away at the surface, rushed forward to greet them.
+<seg rend="initial">H</seg>UNDREDS of youths <date when="1989-11-09">last night</date> clambered up to dance atop the <objectName>Berlin Wall</objectname> near the most potent symbol of the divided <placeName><country type="nation">Germanies</country></placeName>, the <objectname>Brandenburg Gate</objectname>. <nationality>West Germans</nationality>, carrying hammers to chip away at the surface, rushed forward to greet them.
 <lb/>
 <nationality>East German</nationality> border guards at times sprayed the crowd with water cannon but otherwise let the crowd revel on unchecked.
 <lb/>
 <quote>"Open the gate! Open the gate!"</quote> the <nationality>East Berliners</nationality> shouted as the gathering grew with the news that the borders would be opened.
 <lb/>
-All along the wall, <nationality>West Berliners</nationality> trampled over the white demarcation line dividing the city, in effect crossing into the East.
+All along the wall, <nationality>West Berliners</nationality> trampled over the white demarcation line dividing the city, in effect crossing into the <placeName><bloc>East</bloc></placeName>.
 <lb/>
 Groups of people held aloft bottles of beer and champagne and climbed up scaffolding to get a better view of the bewildering scenes.
 <lb/>
-At the <placeName type="street">Bornholmer Strasse</placeName> crossing point, a line of cars more than half a mile long piled up, with drivers tooting their horns in joy.
+At the <placeName><street>Bornholmer Strasse</street></placeName> crossing point, a line of cars more than half a mile long piled up, with drivers tooting their horns in joy.
 <lb/>
 Border police just gave up and let everybody through without checking, and first aid teams were on hand to help some people who fainted with emotion.
 <lb/>
-<quote>“We’re off to the Kudamm,”</quote> pedestrians shouted as they whooped and cheered their way towards the crossing point like football fans flocking into a stadium. <placeName type="street">Kurfuerstendamm</placeName> is the main boulevard in the centre of <placeName><settlement type="city">West Berlin</settlement></placeName>.
+<quote>“We’re off to the <placeName><street>Kudamm</street></placeName>,”</quote> pedestrians shouted as they whooped and cheered their way towards the crossing point like football fans flocking into a stadium. <placeName><street>Kurfuerstendamm</street></placeName> is the main boulevard in the centre of <placeName><settlement type="city">West Berlin</settlement></placeName>.
 <lb/>
 <quote>"I'm just going over to have a look,"</quote> one excited man said. Another added: <quote>"My wife is at home crying her eyes out because she has to look after the kids and can't come."</quote>
 <lb/>
@@ -276,13 +276,13 @@ Trams rumbling towards the end station near the crossing point were packed with 
 <lb/>
 <quote>“I was a little girl when the <objectName>Berlin Wall</objectName> was built. It was terrible,”</quote> recalled a woman in her early 40s at the <objectName>Brandenburg Gate</objectName>. <quote>“From now on, I will be able to visit my friends and relatives without the emotional strain and bureaucratic obstacles”,</quote> she said. <quote>“It had come to an end.”</quote>
 <lb/>
-A lorry driver at one of the crossing points said it was a <quote>“day of joy”</quote> for East Germans.
+A lorry driver at one of the crossing points said it was a <quote>“day of joy”</quote> for <nationality>East Germans</nationality>.
 <lb/>
-A 19-year-old woman, whose close friend had left for the West only three weeks ago, was overjoyed: <quote>"I can't believe it, it is wonderful, now I can go and visit her."</quote>
+A 19-year-old woman, whose close friend had left for the <placeName><bloc>West</bloc></placeName> only three weeks ago, was overjoyed: <quote>"I can't believe it, it is wonderful, now I can go and visit her."</quote>
 <lb/>
-Meanwhile, at the <objectName></objectName>Checkpoint Charlie</objectName> crossing point, <nationality>East German</nationality> border police were stunned last night to learn that citizens could travel freely to the West.
+Meanwhile, at the <objectName>Checkpoint Charlie</objectName> crossing point, <nationality>East German</nationality> border police were stunned last night to learn that citizens could travel freely to the <placeName><bloc>West</bloc></placeName>.
 <lb/>
-In the 28 years since the <objectName>Wall</objectName> was built, some 175 <nationality>East Germans</nationality> have been shot dead trying to flee to the West. The precise number of casualties is unknown, however, as many were wounded and dragged back, possibly to die later.
+In the 28 years since the <objectName>Wall</objectName> was built, some 175 <nationality>East Germans</nationality> have been shot dead trying to flee to the <placeName><bloc>West</bloc></placeName>. The precise number of casualties is unknown, however, as many were wounded and dragged back, possibly to die later.
 <lb/>
 <quote>"People are going to read this and say 'there must be some mistake',"</quote> said a young guard, shaken out of his normally severe bearing and talking animatedly.
 <lb/>
@@ -290,40 +290,40 @@ In the 28 years since the <objectName>Wall</objectName> was built, some 175 <nat
 <lb/>
 Traffic was light at the famous crossing, meant for foreign travellers through the communist-built <objectName>Wall</objectName>, and only a few <nationality>East Germans</nationality> were hanging around near the brightly-lit post.
 <lb/>
-The commanding border police officer, a man about 30, slowly and deliberately read a dispatch about the open borders from the official news agency, orgName><orgTitle type="acronym" reg="Allgemeiner Deutscher Nachrichtendienst">ADN</orgTitle></orgName>.
+The commanding border police officer, a man about 30, slowly and deliberately read a dispatch about the open borders from the official news agency, <orgName><orgTitle type="acronym" reg="Allgemeiner Deutscher Nachrichtendienst">ADN</orgTitle></orgName>.
 <lb/>
 <quote>“They [the people] will have to read this over very carefully, sometimes you have to read between the lines,”</quote> he said, pointing to a line saying official permission to travel was still needed.
 <lb/>
-Asked how many people might want to leave, the officer said he had heard talk in the force that two million of <placeName><country>East Germany</country></placeName>'s 16 million people might pack up and move West.
+Asked how many people might want to leave, the officer said he had heard talk in the force that two million of <placeName><country type="nation">East Germany</country></placeName>'s 16 million people might pack up and move <placeName><bloc>West</bloc></placeName>.
 <lb/>
-He said many could turn up as early as this morning, with or without the necessary papers, and agreed the early shift would be "interesting".</p>
+He said many could turn up as early as this morning, with or without the necessary papers, and agreed the early shift would be <quote>"interesting"</quote>.</p>
 </div>
 <div id="article_5">
 <head type="section">News in brief</head>
 <lb/>
 ………………………………………………
 <lb/>
-<head rend="bold"><orgName>Nat West</orgName> faces fraud charges</head> The <placeName><settlement type="district">City</settlement></placeName> arm of the <orgName>National WestMinster Bank</orgName> and the leading firm of stockbrokers are to appear in court today on fraud charges relating to events surrounding an £837 million cash-raising exercise by the recruitment agency <orgName>Blue Arrow</orgName> two years ago.  <ref target="#page24">Page 24</ref>
+<head rend="bold"><orgName>Nat West</orgName> faces fraud charges</head> The <placeName><settlement type="district">City</settlement></placeName> arm of the <orgName>National WestMinster Bank</orgName> and the leading firm of stockbrokers are to appear in court <date when="1989-11-10">today</date> on fraud charges relating to events surrounding an £837 million cash-raising exercise by the recruitment agency <orgName>Blue Arrow</orgName> <date when="1987">two years ago</date>.  <ref target="#page24">Page 24</ref>
 <lb/>
 <head rend="bold"><orgName>Ford</orgName> strike ballot</head>
-<orgName>Ford</orgName> union leaders are to ballot 32,000 hourly-paid workers on strike action following their rejection last night of a 9.5 per cent pay offer, the highest in the current autumn round. <ref target="#page4">Page 4</ref>
+<orgName>Ford</orgName> union leaders are to ballot 32,000 hourly-paid workers on strike action following their rejection <date when="1989-11-09">last night</date> of a 9.5 per cent pay offer, the highest in the current autumn round. <ref target="#page4">Page 4</ref>
 <lb/>
-<head rend="bold">Milk ‘plot’ questioned</head> The Agriculture Minister <persName><roleName type="honorific" full="abb">Mr</roleName>
+<head rend="bold">Milk ‘plot’ questioned</head> The <persName><roleName type="office">Agriculture Minister</roleName><roleName type="honorific" full="abb">Mr</roleName>
 <forename>John</forename>
 <surname>Gummer</surname>
-</persName>’s claims that a criminal conspiracy has caused contamination of <nationality>British</nationality> milk have been treated with scepticism by <placeName><settlement type="bloc">European Community</settlement><placeName> officials.  <ref target="#page4">Page 4</ref>
+</persName>’s claims that a criminal conspiracy has caused contamination of <nationality>British</nationality> milk have been treated with scepticism by <placeName><bloc>European Community</bloc><placeName> officials.  <ref target="#page4">Page 4</ref>
 <lb/>
-<head rend="bold"><persName><surname>Deng</surname></persName> gives up control</head> <placeName><country>China</country></placeName>’s supreme leader, <persName><roleName type="honorific" full="abb">Mr</roleName>
+<head rend="bold"><persName><surname>Deng</surname></persName> gives up control</head> <placeName><country type="nation">China</country></placeName>’s supreme leader, <persName><roleName type="honorific" full="abb">Mr</roleName>
 <surname>Deng</surname>
 <forename>Xiaoping</forename>
 </persName>, has resigned his last post, leaving power in the hands of headliners. <ref target="#page24">Page 24</ref>
 <lb/>
-<head rend="bold">Jet crashes into flats</head> A <placeName>US</placeName> navy jet crashed into an apartment block in <placeName><settlement type="city">Atlanta</settlement></placeName>,<placeName><settlement type="region">Georgia</settlement></placeName>, last night, killing at least one person and injuring several others, including the pilot who baled out.
+<head rend="bold">Jet crashes into flats</head> A <placeName>US</placeName> navy jet crashed into an apartment block in <placeName><settlement type="city">Atlanta</settlement></placeName>,<placeName><region>Georgia</region></placeName>, last night, killing at least one person and injuring several others, including the pilot who baled out.
 <lb/>
 <head rend="bold">Plan for colony elite</head> The Foreign Secretary, <persName><roleName type="honorific" full="abb">Mr</roleName>,
 <forename>Douglas</forename>
 <surname>Hurd</surname>
-</persName>, plans to grant right of abode to up to 200,000 “important” <placeName><country>Hong Kong</country></placeName> citizens, according to a <placeName><country>Hong Kong</country></placeName>newspaper report.  <ref target="#page13">Page 13</ref>
+</persName>, plans to grant right of abode to up to 200,000 “important” <placeName><country type="colony">Hong Kong</country></placeName> citizens, according to a <placeName><country type="colony">Hong Kong</country></placeName>newspaper report.  <ref target="#page13">Page 13</ref>
 
 
 ………………………………………………
