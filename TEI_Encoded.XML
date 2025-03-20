@@ -56,7 +56,7 @@ November   10
                                 <lb />
 Published in <placeName><settlement type="city">London</settlement></placeName>
                                 <lb />
-and <placeName><settlement type="city"> Manchester</settlement></placeName>
+and <placeName><settlement type="city">Manchester</settlement></placeName>
                                 <lb />
 <orgName type="media">The Guardian</orgName>
 
@@ -98,10 +98,10 @@ All border crossing points declared legal
                             <p>
                                 <head type="sub">Exchanges jam in clamour of exit inquiries</head>
                                 <byline>
-                                    <persName><forename>Anna</forename><surname>Tomforde</surname></persName> in <placeName><settlement type="city"> East Berlin</settlement></placeName>
+                                    <persName><forename>Anna</forename><surname>Tomforde</surname></persName> in <placeName><settlement type="city">East Berlin</settlement></placeName>
                                 </byline>
                                 <lb />
-                                <placeName> <country type="nation">
+                                <placeName><country type="nation">
                                     <seg rend="initial">E</seg>AST Germany</country>'s
                                 
                                 </placeName> ruling <orgName type="politicaParty">Communist Party</orgName> <date when="1989-11-09">last night</date> took the momentous step of allowing all citizens direct passage to the <placeName><bloc>West</bloc></placeName> in a step that renders obsolete the <objectName>Berlin Wall</objectname> and puts into question the border between the two <placeName><country type="nation">Germanies</country></placeName>.
@@ -116,7 +116,7 @@ All border crossing points declared legal
                             <lb />
 					When <nationality>East German</nationality> television carried the announcement, the station's switchboard was jammed almost instantly as thousands of callers tried to elicit more information.
                             <lb />
-					It was also announced <date when="1989-11-09">yesterday</date> that <placeName><country type="nation">East Germany</country></placeName>'s parliament will meet on <date when="1989-11'13">Monday</date> to elect a new Prime Minister, and charge him with forming a new government. The <orgName type="politicaParty">Communist Party</orgName> has nominated the reformist, <persName><roleName type="honorific" full="abb">Mr</roleName>
+					It was also announced <date when="1989-11-09">yesterday</date> that <placeName><country type="nation">East Germany</country></placeName>'s parliament will meet on <date when="1989-11-13">Monday</date> to elect a new Prime Minister, and charge him with forming a new government. The <orgName type="politicaParty">Communist Party</orgName> has nominated the reformist, <persName><roleName type="honorific" full="abb">Mr</roleName>
                             <forename>Hans</forename>
                             <surname>Modrow</surname>
                         </persName>, for the top job in the government, after the former administration under the hardliner, <persName><roleName type="honorific" full="abb">Mr</roleName>
@@ -143,14 +143,14 @@ All border crossing points declared legal
                 <lb />
 					The decision comes against a background of a crippling labour shortage, caused by the exodus. Soldiers and members of the secret police, the <orgName>Stasi</orgName>, have been called in to help at hospitals, the public services, and public transport.
                 <lb />
-					Meanwhile, <placeName><country type="nation">East Germany</country></placeName>'s biggest independent opposition group said it had been granted initial recognition as a political movement by the <orgName type="phrase">Interior Ministry</orgName>. <orgName type="politicalMovement">New Forum</orgName> has been given three months to present a platform, and will then be able to contest elections as a “movement” rather than a political party. <persName><roleName type="honorific" full="abb"> Mr</roleName>
+					Meanwhile, <placeName><country type="nation">East Germany</country></placeName>'s biggest independent opposition group said it had been granted initial recognition as a political movement by the <orgName type="phrase">Interior Ministry</orgName>. <orgName type="politicalMovement">New Forum</orgName> has been given three months to present a platform, and will then be able to contest elections as a “movement” rather than a political party. <persName><roleName type="honorific" full="abb">Mr</roleName>
                 <forename>Michael</forename>
                 <surname>Goebel</surname>
             </persName>, a member, said <orgName type="politicalMovement">New Forum</orgName> now had 200,000 supporters.
             <lb />
 					The special <orgName type="politicalParty">party</orgName> conference will be held from <date from="1989-12-15" to="1989-12-17">December 15 to 17</date>. Its representatives have the power to elect and sack members of the present central committee. <quote> “The party conference could well demonstrate who are the reformers and who are the hardliners in the central committee,”</quote> one observer said.
             <lb />
-					<persName><roleName type="honorific" full="abb"> Mr</roleName>
+					<persName><roleName type="honorific" full="abb">Mr</roleName>
             <surname>Schabowski</surname>
         </persName> told reporters that <date when="1989-11-09">yesterday</date>'s session had been <quote>“lively”</quote>. It concentrated on determining the reasons for the crisis and on finding answers to <placeName><country type="nation">East Germany</country></placeName>'s variety of “perestroika”.
         <lb />
@@ -181,7 +181,7 @@ All border crossing points declared legal
 <div id="photo">
 <figure>
 <graphic url="media/img/brandenburg-gate.png"/>
-<head>Gateway to freedom…The <objectName>Brandenburg Gate</objectName>, until now a symbol of a divided <placeName><settlement type="city">Berlin</settlement></placeName></head>
+<head>Gateway to freedom...The <objectName>Brandenburg Gate</objectName>, until now a symbol of a divided <placeName><settlement type="city">Berlin</settlement></placeName></head>
 <figDesc>Photograph of the Brandenburg Gate in Berlin.</figDesc>
 <lb/>
 PHOTOGRAPH: <persName>
@@ -268,7 +268,7 @@ At the <placeName><street>Bornholmer Strasse</street></placeName> crossing point
 <lb/>
 Border police just gave up and let everybody through without checking, and first aid teams were on hand to help some people who fainted with emotion.
 <lb/>
-<quote>“We’re off to the <placeName><street>Kudamm</street></placeName>,”</quote> pedestrians shouted as they whooped and cheered their way towards the crossing point like football fans flocking into a stadium. <placeName><street>Kurfuerstendamm</street></placeName> is the main boulevard in the centre of <placeName><settlement type="city">West Berlin</settlement></placeName>.
+<quote>“We're off to the <placeName><street>Kudamm</street></placeName>,”</quote> pedestrians shouted as they whooped and cheered their way towards the crossing point like football fans flocking into a stadium. <placeName><street>Kurfuerstendamm</street></placeName> is the main boulevard in the centre of <placeName><settlement type="city">West Berlin</settlement></placeName>.
 <lb/>
 <quote>"I'm just going over to have a look,"</quote> one excited man said. Another added: <quote>"My wife is at home crying her eyes out because she has to look after the kids and can't come."</quote>
 <lb/>
@@ -318,12 +318,12 @@ He said many could turn up as early as this morning, with or without the necessa
 <forename>Xiaoping</forename>
 </persName>, has resigned his last post, leaving power in the hands of headliners. <ref target="#page24">Page 24</ref>
 <lb/>
-<head rend="bold">Jet crashes into flats</head> A <placeName>US</placeName> navy jet crashed into an apartment block in <placeName><settlement type="city">Atlanta</settlement></placeName>,<placeName><region>Georgia</region></placeName>, last night, killing at least one person and injuring several others, including the pilot who baled out.
+<head rend="bold">Jet crashes into flats</head> A <nationality>US</nationality> navy jet crashed into an apartment block in <placeName><settlement type="city">Atlanta</settlement></placeName>,<placeName><region>Georgia</region></placeName>, last night, killing at least one person and injuring several others, including the pilot who baled out.
 <lb/>
-<head rend="bold">Plan for colony elite</head> The Foreign Secretary, <persName><roleName type="honorific" full="abb">Mr</roleName>,
+<head rend="bold">Plan for colony elite</head> The <persName><roleName type="office">Foreign Secretary</roleName>, <roleName type="honorific" full="abb">Mr</roleName>,
 <forename>Douglas</forename>
 <surname>Hurd</surname>
-</persName>, plans to grant right of abode to up to 200,000 “important” <placeName><country type="colony">Hong Kong</country></placeName> citizens, according to a <placeName><country type="colony">Hong Kong</country></placeName>newspaper report.  <ref target="#page13">Page 13</ref>
+</persName>, plans to grant right of abode to up to 200,000 “important” <placeName><country type="colony">Hong Kong</country></placeName> citizens, according to a <nationality>Hong Kong</nationality>newspaper report.  <ref target="#page13">Page 13</ref>
 
 
 ………………………………………………
