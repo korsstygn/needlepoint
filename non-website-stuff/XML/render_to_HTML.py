@@ -10,13 +10,18 @@ def tei_to_html(tei_file, xsl_file, output_file):
 
     # Print the content of the TEI file
     with open(tei_file, 'r', encoding='UTF-8') as f:
-        print("TEI file content preview:", f.read(500))
+        print("TEI file content preview:", f.read(100))
 
     # Parse the TEI and XSL files
     tei_doc = etree.parse(tei_file) 
     xsl_doc = etree.parse(xsl_file)  
     transform = etree.XSLT(xsl_doc)
-    result = transform(tei_doc)
+
+    try:
+        result = transform(tei_doc)
+    except Exception as e:
+        print(f"Error during transformation: {e}")
+        return
 
     # Write the transformation result to the output file
     with open(output_file, 'wb') as f:
@@ -24,7 +29,7 @@ def tei_to_html(tei_file, xsl_file, output_file):
 
 if __name__ == "__main__":
     # Use absolute paths to the TEI and XSL files
-    tei_file = "TEI_Encoded.XML"
+    tei_file = "TEI_Encoded_0323.XML"
     xsl_file = "stylesheet.xsl"
     output_file = "index.html"  
 

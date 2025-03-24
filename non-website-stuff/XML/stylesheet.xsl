@@ -1,137 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0">
-    <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+    xmlns:t="http://www.tei-c.org/ns/1.0">
+    <xsl:output method="html" indent="yes"/>
 
-    <xsl:template match="/">
-        <html>
+    <!-- General template to handle elements with a 'rend' attribute -->
+    <xsl:template match="t:*[@rend]">
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@rend"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- General template to handle elements without HTML tags -->
+    <xsl:template match="t:*[not(*) and not(@rend)]">
+        <span class="{local-name()}">
+            <xsl:value-of select="normalize-space()"/>
+        </span>
+    </xsl:template>
+
+    <!-- Specific templates for orgName, persName, etc. -->
+    <xsl:template match="t:orgName">
+        <span class="{@type}">
+            <xsl:if test="@rend">
+                <xsl:attribute name="class">
+                    <xsl:value-of select="@rend"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="t:persName">
+        <span class="{@type}">
+            <xsl:if test="@rend">
+                <xsl:attribute name="class">
+                    <xsl:value-of select="@rend"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- Main template -->
+    <xsl:template match="/t:TEI">
+        <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
-                <title>
-                    <xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-                </title>
+                <title>The Guardian's Cover page on the fall of the Berlin Wall</title>
                 <link rel="stylesheet" type="text/css" href="media/CSS/tei_styles.css"/>
             </head>
             <body>
-                <div class="container">
-                    <xsl:apply-templates select="tei:TEI/tei:text/tei:body"/>
-                </div>
+                <xsl:apply-templates select="t:teiHeader"/>
+                <xsl:apply-templates select="t:text"/>
             </body>
         </html>
     </xsl:template>
 
-    <xsl:template match="tei:body">
-        <xsl:apply-templates select="tei:div"/>
-    </xsl:template>
-
-    <xsl:template match="tei:div">
-        <div class="article-container">
-            <xsl:apply-templates select="tei:head | tei:byline | tei:p | tei:figure | tei:list"/>
-        </div>
-    </xsl:template>
-
-    <xsl:template match="tei:head">
-        <div class="headline-container">
-            <span class="headline">
-                <xsl:value-of select="."/>
-            </span>
-        </div>
-    </xsl:template>
-
-    <xsl:template match="tei:byline">
-        <p class="byline">
-            <em>
-                <xsl:apply-templates/>
-            </em>
-        </p>
-    </xsl:template>
-
-    <xsl:template match="tei:p">
+    <!-- Template for paragraph content excluding initial segment (headings etc.) -->
+    <xsl:template match="t:p">
+        <!-- Output the text of paragraphs, including nested elements like emph, name, persName, date, placeName etc. -->
         <p>
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space()"/>
         </p>
     </xsl:template>
-    <xsl:template match="tei:lb">
-        <br />
-        <xsl:apply-templates/>
 
-    </xsl:template>
-
-    <xsl:template match="tei:figure">
-        <div class="image-container">
-            <img class="main-image" src="{@url}" alt="{@n}"/>
-        </div>
-    </xsl:template>
-
-    <xsl:template match="tei:list">
-        <ul>
-            <xsl:apply-templates select="tei:item"/>
-        </ul>
-    </xsl:template>
-
-    <xsl:template match="tei:item">
-        <li>
-            <xsl:apply-templates/>
-        </li>
-    </xsl:template>
-
-    <!-- Drop cap -->
-    <xsl:template match="tei:seg[@rend='initial']">
-
-        <span style="font-size: 1.5em; font-weight: bold;">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-
-    <xsl:template match="tei:persName">
-        <span style="font-weight: bold;">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-
-    <xsl:template match="tei:orgName">
-        <span style="font-weight: bold;">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-
-    <xsl:template match="tei:hi[@rend='italic']">
-        <span style="font-style: italic;">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-
-
-
-    <xsl:template match="tei:head[@rend='bold']">
-        <span style="font-weight: bold;">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-
-    <!-- New template for column structure -->
-    <xsl:template match="tei:div[@type='columns']">
-        <div class="columns-container">
-            <xsl:for-each select="tei:div[@type='column']">
-                <div class="column">
-                    <xsl:apply-templates/>
-                </div>
-                <xsl:if test="position() != last()">
-                    <div class="column-divider"></div>
-                </xsl:if>
-            </xsl:for-each>
-        </div>
-    </xsl:template>
-
-    <!-- New template for ad container -->
-    <xsl:template match="tei:div[@type='ad']">
-        <div class="ad-container">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-
-    <!-- New template for horizontal divider -->
-    <xsl:template match="tei:div[@type='horizontal-divider']">
-        <div class="horizontal-divider"></div>
-    </xsl:template>
 </xsl:stylesheet>
