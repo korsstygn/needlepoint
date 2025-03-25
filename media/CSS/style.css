@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap");
+@import url("https://use.typekit.net/trq6wrc.css");
+
+/* .themed-grid-col {
+    border: 1px solid rgba(125, 171, 185, 0.4);
+}
+
+.themed-container {
+    border: 1px dashed rgba(148, 126, 90, 0.43);
+} */
+
+.container_Broadsheet {
+    background-color: #fafafa;
+    width: 90%;
+    height: auto;
+    padding: 10%;
+}
+
+div {
+    a {
+        background-color: rgba(246, 219, 128, 0.4);
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        background-color: rgb(250, 217, 109);
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+
+
+/*--- Hide Header Metadata -- */
+.teiHeader,
+.descrp {
+    display: none;
+}
+
+.dropcap::first-letter {
+    font-family: "articulat-cf";
+
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    margin-right: 0.5rem;
+    initial-letter: 4;
+}
+
+.NiB_Head {
+    font-size: 0.5rem;
+    font-family: "Helvetica", "Inter", Arial, sans-serif;
+    font-weight: 600;
+    border-bottom: 3px dotted;
+}
+.NiB {
+    font-size: 0.8rem;
+    font-family: "Helvetica", "Inter", Arial, sans-serif;
+    font-weight: 600;
+}
+
+.NiB_body {
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    /*font-size: calc(0.75vw + 0.25vmin);*/
+    font-size: 0.78rem;
+    text-align: justify;
+    word-break: break-all;
+    line-break: loose;
+    break-after: region;
+    line-height: 0.85;
+    margin-top: 0.5rem;
+
+    padding-right: 0.5rem;
+}
+
+.listing {
+    font-size: 0.8rem;
+    padding-bottom: 0.2rem;
+    font-family: "Helvetica", "Inter", Arial, sans-serif;
+    font-weight: 600;
+    border-bottom: 2px solid;
+}
+
+.byline {
+    display: block;
+    font-family: "Helvetica", "Inter", Arial, sans-serif;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.Art_headline {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: calc(2vw + 1vmin);
+    line-height: .9;
+    font-stretch: expanded;
+    text-align: justify;
+    word-break: break-word;
+    line-break: loose;
+    break-after: region;
+}
+
+.art-body-wrapper-4 {
+    display: grid;
+    text-overflow: ellipsis;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.65rem;
+}
+
+.art-body-wrapper-2 {
+    display: grid;
+    text-overflow: ellipsis;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.65rem;
+}
+
+.Art_body {
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    /*font-size: calc(0.75vw + 0.25vmin);*/
+    font-size: 0.78rem;
+    text-align: justify;
+    word-break: break-word;
+    line-break: loose;
+    break-after: region;
+    line-height: 0.85;
+    margin-top: 0.5rem;
+    padding-right: 0.5rem;
+    border-right: 1px solid;
+}
+
+/* .tei-placeName,
+.tei-persName,
+.tei-settlement,
+.tei-sic,
+.tei-corr,
+.tei-head,
+.tei-region,
+.tei-roleName,
+.orgName,
+.block,
+.objectName,
+.country {
+border-left: outset calc(.2vw + .1vmin) #f6db80;
+    padding-left: .2rem;
+} */
+
+.tei-quote {
+    display: block;
+    border-left: 3px solid #ccc;
+    padding-left: 0.2rem;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    font-style: italic;
+}
+
+.goto {
+    display: block;
+    padding-top: 0.5rem;
+    font-family: "Helvetica", "Inter", Arial, sans-serif;
+    font-weight: 600;
+    border-top: 2px solid;
+}
+
+figure {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: left;
+    margin-top: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.hr {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin: 20px 0;
+    padding-top: 1rem;
+}
+
+.divider {
+    margin-top: 20px;
+    border-bottom: 20px solid #000;
+    width: 100%;
+}
+
+/*--- HEAD Styles ---*/
+
+.publ {
+    font-family: sans-serif;
+    align-content: flex-end;
+}
+
+.logotype,
+.MastBold,
+.MastItalics {
+    white-space: nowrap;
+    font-size: calc(6vw + 4vmin);
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.MastItalics {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    letter-spacing: -0.1 rem;
+    margin-right: -0.15 rem;
+}
+
+.MastBold {
+    font-family: "articulat-heavy-cf", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -0.05 rem;
+}
+
+/*--- The black "ticker line" ---*/
+
+.invHeading {
+    font-family: "articulat-heavy-cf", sans-serif;
+    text-align: center;
+    font-size: calc(1.5vw + 1vmin);
+    padding: 0.5rem;
+    font-weight: 900;
+    background-color: #000000;
+    color: #ffffff;
+    white-space: nowrap;
+    width: 100%;
+}
+
+/*--- The Large Title --*/
+.Title {
+    font-family: "articulat-heavy-cf", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    white-space: nowrap;
+    font-size: calc(4vw + 2vmin);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
