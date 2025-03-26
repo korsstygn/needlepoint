@@ -29,8 +29,8 @@ def tei_to_html(tei_file, xsl_file, output_file):
 
 if __name__ == "__main__":
     # Use absolute paths to the TEI and XSL files
-    tei_file = "TEI_Encoded_0323.XML"
+    tei_file = "FINAL_Group_1_TEI.XML"
     xsl_file = "stylesheet.xsl"
-    output_file = "index_AR_TEI.html"  
+    output_file = "index_FINAL_Group_1_TEI.html"  
 
     tei_to_html(tei_file, xsl_file, output_file) 

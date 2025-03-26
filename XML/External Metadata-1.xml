@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF PUBLIC "-//DUBLIN CORE//DCMES DTD 2002 01 24//EN" "https://dublincore.org/specifications/dublin-core/dcmes-xml/2002-01-24/dcmes-xml-dtd.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="media/img/10_Nov_89.jpg">
+    <dc:title>The Guardian's Cover Page on the Fall of the Berlin Wall: TEI Transcription</dc:title>
+    <dc:creator>Klara Chlupata</dc:creator>
+    <dc:creator>Andre Rodewald</dc:creator>
+    <dc:creator>Victor Villavicencio</dc:creator>
+    <dc:subject>News, media, journalism, publishing (DDC 070)</dc:subject>
+    <dc:description>The front page of print edition of British daily newspaper The Guardian dated November 10, 1989, featuring several articles dealing with the events in divided Germany that led to the fall of the Berlin Wall. In this object, the front page finds a digital remediation.</dc:description>
+    <dc:rights>This work is licensed under The Guardian's Open Licence. For detailed license conditions visit https://www.theguardian.com/info/2022/nov/01/open-licence-terms</dc:rights>
+    <dc:publisher>University of Boras</dc:publisher>
+    <dc:date>2025-03-27</dc:date>
+    <dc:type>newspaper</dc:type>
+    <dc:format>application/tei+xml</dc:format>
+    <dc:language>en</dc:language>
+    <dc:source>Digital scan of the front page https://uploads.guim.co.uk/2019/10/28/10_Nov_89.jpg</dc:source>
+  </rdf:Description>
+</rdf:RDF>

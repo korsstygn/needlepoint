@@ -11,9 +11,60 @@
     display: none;
 }
 
+.tei-placeName,
+.tei-persName,
+.tei-settlement,
+.tei-sic,
+.tei-corr,
+.tei-head,
+.tei-region,
+.tei-roleName,
+.orgName,
+.block,
+.objectName,
+.country,
+.measure,
+.date,
+.placeName,
+.orgName,
+.nationality,
+.objectName,
+glyph,
+.persName,
+.author,
+.resp,
+.name,
+.publisher,
+.pubPlace,
+.availability,
+.sourceDesc,
+.editorialDecl,
+.pb,
+.graphic,
+.figDesc,
+.bloc,
+.settlement,
+.sic,
+.corr,
+.head,
+.region,
+.roleName,
+.ref {
+    border-left: outset calc(.2vw + .1vmin) #f6db80;
+    padding-left: .2rem;
+}
+
+.tei-quote {
+    display: block;
+    border-left: 3px solid #ccc;
+    padding-left: 0.2rem;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    font-style: italic;
+}
 
 /* Basic document styling */
-
 /* General styles for the body */
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -58,154 +109,18 @@ i {
     font-style: italic;
 }
 
-.measure {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.date {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.placeName {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.orgName {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.nationality {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.objectName {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-glyph {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.persName {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.author {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.resp {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.name {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.publisher {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.pubPlace {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.availability {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.sourceDesc {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.editorialDecl {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.pb {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-/* .graphic {
-    color: #55768a;
-    text-decoration: underline;
-} */
-
-.figDesc {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.bloc {
-    color: #55768a;
-    text-decoration: underline;
-}
 
 .byline {
-padding-top: 20px;
-padding-bottom: 20px;
-border-top: 1px solid;
-border-bottom: 1px solid;
-}
-
-/*
-.settlement {
-    color: #55768a;
-    text-decoration: underline;
-}
-*/
-
-.sic {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.corr {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.head {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.region {
-    color: #55768a;
-    text-decoration: underline;
-}
-
-.roleName {
-    color: #55768a;
-    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 .quote {
     border-left: 3px solid #ccc;
     padding-left: 10px;
     font-style: italic;
-}
-
-.ref {
-    color: #55768a;
-    text-decoration: underline;
 }
 
 figure {
@@ -281,8 +196,6 @@ hr {
     padding: 15px;
 }
 
-
-
 [type="advertisement"] {
     background-color: #f9f9f9;
     padding: 15px;
@@ -296,9 +209,6 @@ hr {
     border: 1px solid #d0d0d0;
     margin: 20px 0;
 }
-
-
-
 
 /* Custom styles for MastItalics and MastBold */
 .MastItalics {
