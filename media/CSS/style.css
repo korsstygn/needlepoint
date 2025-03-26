@@ -133,7 +133,7 @@ div {
     border-right: 1px solid;
 }
 
-/* .tei-placeName,
+.tei-placeName,
 .tei-persName,
 .tei-settlement,
 .tei-sic,
@@ -147,7 +147,7 @@ div {
 .country {
 border-left: outset calc(.2vw + .1vmin) #f6db80;
     padding-left: .2rem;
-} */
+}
 
 .tei-quote {
     display: block;
